@@ -1,2 +1,3 @@
 *.bak-*
 verification/*.png
+verification/*.svg
