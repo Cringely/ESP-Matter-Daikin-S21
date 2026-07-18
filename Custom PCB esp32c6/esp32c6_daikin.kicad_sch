@@ -4623,7 +4623,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 78.74) (xy 217.17 81.28)
+			(xy 217.17 78.74) (xy 218.44 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4633,7 +4633,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 81.28) (xy 224.79 81.28)
+			(xy 218.44 81.28) (xy 224.79 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4700,6 +4700,26 @@
 			(justify left bottom)
 		)
 		(uuid "391b38a5-9aa6-46a0-b18a-e8f60e61430d")
+	)
+	(wire
+		(pts
+			(xy 218.44 78.74) (xy 218.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82306dcb-b1dc-4c29-bb74-fd76c91773b4")
+	)
+	(label "S21_TX_CORE"
+		(at 217.17 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d581ee4e-d814-4e6a-a9d1-5a9bbe094cee")
 	)
 	(global_label "RX1"
 		(shape input)
