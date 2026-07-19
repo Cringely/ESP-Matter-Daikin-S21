@@ -1397,7 +1397,7 @@
 			)
 		)
 	)
-	(footprint "D_SOD-123"
+	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "2dc48956-59db-491b-96a8-82019444aef6")
 		(at 177 90)
@@ -2413,7 +2413,7 @@
 				)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "47pF"
 			(at 0 4 90)
 			(layer "F.Fab")
 			(uuid "130c056d-4951-43f7-a1fe-c2d9ce0b2efe")
@@ -3096,7 +3096,7 @@
 				)
 			)
 		)
-		(property "Value" "33k 1%"
+		(property "Value" "30k 1%"
 			(at 0 4 0)
 			(layer "F.Fab")
 			(uuid "7aec9cd1-c332-499b-8c11-10bcdd2a37e8")
@@ -3833,7 +3833,7 @@
 				)
 			)
 		)
-		(property "Value" "150k 1%"
+		(property "Value" "220k 1%"
 			(at 0 4 0)
 			(layer "F.Fab")
 			(uuid "3e7308fe-b11c-4459-a326-b75f93322221")
@@ -4546,7 +4546,7 @@
 				)
 			)
 		)
-		(property "Value" "47uF 6V3"
+		(property "Value" "47uF 10V"
 			(at 0 4 90)
 			(layer "F.Fab")
 			(uuid "95ea34a9-1eba-4750-b18f-7f9c31b9e441")
@@ -6377,7 +6377,7 @@
 			)
 		)
 	)
-	(footprint "XIAO-ESP32-C6-DIP"
+	(footprint "Seeed_XIAO:XIAO-ESP32-C6-DIP"
 		(layer "B.Cu")
 		(uuid "512be7c2-47a2-4d89-b737-072bb9fc53af")
 		(at 159.5 98.5)
