@@ -1,0 +1,2715 @@
+(export
+	(version "E")
+	(design
+		(source "E:\\projects\\ESP-Matter-Daikin-S21\\Custom PCB esp32c6\\esp32c6_daikin.kicad_sch")
+		(date "2026-07-18T23:20:36")
+		(tool "Eeschema 10.0.4")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "Daikin  WT0132C6-S5")
+				(company)
+				(rev "1")
+				(date)
+				(source "esp32c6_daikin.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C3")
+			(value "100nF 25V")
+			(footprint "easyeda2kicad:C0402")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "C307331")
+				(field
+					(name "Footprint") "easyeda2kicad:C0402")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C307331")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32c6_daikin")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32c6_daikin.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0ef991ea-ae4a-40bb-8748-d51461891eb8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C15")
+			(value "47uF 6V3")
+			(footprint "easyeda2kicad:C0805")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "C16780")
+				(field
+					(name "Footprint") "easyeda2kicad:C0805")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C16780")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32c6_daikin")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32c6_daikin.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a97b3748-aa49-4dad-a598-3ed6f45bee26")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C16")
+			(value "100nF 25V")
+			(footprint "easyeda2kicad:C0402")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "C307331")
+				(field
+					(name "Footprint") "easyeda2kicad:C0402")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C307331")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32c6_daikin")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32c6_daikin.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "30fd0b5c-9b43-4d2e-adf9-203f5930c85f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C17")
+			(value "22uF 25V")
+			(footprint "easyeda2kicad:C0805")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "C45783")
+				(field
+					(name "Footprint") "easyeda2kicad:C0805")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C45783")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32c6_daikin")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32c6_daikin.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dea290d0-018e-4b8a-8c91-8caa20ef2236")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C18")
+			(value "100nF")
+			(footprint "easyeda2kicad:C0402")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "C1525")
+				(field
+					(name "Footprint") "easyeda2kicad:C0402")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C1525")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32c6_daikin")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32c6_daikin.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ee71336f-3119-491d-8df7-2f52d24ad602")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C19")
+			(value "18pF")
+			(footprint "easyeda2kicad:C0402")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "C1549")
+				(field
+					(name "Footprint") "easyeda2kicad:C0402")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C1549")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32c6_daikin")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32c6_daikin.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ab78d112-b3f1-4ed5-8500-1931b50d55c2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D2")
+			(value "~")
+			(footprint "easyeda2kicad:DFN1006-2L_L1.0-W0.6-P0.65-BI")
+			(fields
+				(field
+					(name "MPN") "C5137770")
+				(field
+					(name "LCSC") "C5137770")
+				(field
+					(name "Footprint") "easyeda2kicad:DFN1006-2L_L1.0-W0.6-P0.65-BI")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "RevK")
+				(part "ES05D1MC10")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "C5137770")
+			)
+			(property
+				(name "LCSC")
+				(value "C5137770")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32c6_daikin")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32c6_daikin.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7a7cff03-82ba-49d9-9945-0a8f1eaa3274")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D3")
+			(value "~")
+			(footprint "easyeda2kicad:DFN1006-2L_L1.0-W0.6-P0.65-BI")
+			(fields
+				(field
+					(name "MPN") "C5137770")
+				(field
+					(name "LCSC") "C5137770")
+				(field
+					(name "Footprint") "easyeda2kicad:DFN1006-2L_L1.0-W0.6-P0.65-BI")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "RevK")
+				(part "ES05D1MC10")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "C5137770")
+			)
+			(property
+				(name "LCSC")
+				(value "C5137770")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32c6_daikin")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32c6_daikin.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0b9c93eb-a43e-45b8-ba42-735f1efb6189")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D5")
+			(value "SMF15A 15V")
+			(footprint "Diode_SMD:D_SOD-123F")
+			(description "Bidirectional transient-voltage-suppression diode")
+			(fields
+				(field
+					(name "LCSC") "C123802")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123F")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Bidirectional transient-voltage-suppression diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "D_TVS")
+				(description "Bidirectional transient-voltage-suppression diode")
+			)
+			(property
+				(name "LCSC")
+				(value "C123802")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32c6_daikin")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32c6_daikin.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode TVS thyrector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO-???* *_Diode_* *SingleDiode* D_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "572e862c-79f9-493f-94f8-2c550da8ca47")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "F1")
+			(value "250mA-hold 1206")
+			(footprint "Fuse:Fuse_1206_3216Metric")
+			(description "Resettable fuse, polymeric positive temperature coefficient")
+			(fields
+				(field
+					(name "LCSC") "C99561")
+				(field
+					(name "Footprint") "Fuse:Fuse_1206_3216Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resettable fuse, polymeric positive temperature coefficient")
+			)
+			(libsource
+				(lib "Device")
+				(part "Polyfuse")
+				(description "Resettable fuse, polymeric positive temperature coefficient")
+			)
+			(property
+				(name "LCSC")
+				(value "C99561")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32c6_daikin")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32c6_daikin.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "resettable fuse PTC PPTC polyfuse polyswitch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*polyfuse* *PTC*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1870de83-7289-4095-b122-da2e251a9b5f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "Conn_01x05")
+			(footprint "Connector_JST:JST_EH_S5B-EH_1x05_P2.50mm_Horizontal")
+			(description "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "LCSC") "C265103")
+				(field
+					(name "Footprint") "Connector_JST:JST_EH_S5B-EH_1x05_P2.50mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x05")
+				(description "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "LCSC")
+				(value "C265103")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32c6_daikin")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32c6_daikin.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "73d7af4e-f9c6-4342-a7c7-444311f64904")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L1")
+			(value "4.7uH")
+			(footprint "easyeda2kicad:IND-SMD_L4.9-W4.9_NRS50XX")
+			(description "Inductor")
+			(fields
+				(field
+					(name "LCSC") "C307876")
+				(field
+					(name "Footprint") "easyeda2kicad:IND-SMD_L4.9-W4.9_NRS50XX")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Inductor")
+			)
+			(libsource
+				(lib "Device")
+				(part "L")
+				(description "Inductor")
+			)
+			(property
+				(name "LCSC")
+				(value "C307876")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32c6_daikin")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32c6_daikin.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "inductor choke coil reactor magnetic")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Choke_* *Coil* Inductor_* L_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4a5052e8-8aee-41d2-96a0-333febfeebca")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q1")
+			(value "BSS138PS")
+			(footprint "easyeda2kicad:SOT-363_L2.0-W1.3-P0.65-LS2.1-BR")
+			(datasheet "https://datasheet.lcsc.com/lcsc/1810011113_Nexperia-BSS138PS-115_C193381.pdf")
+			(description "60 V, 320 mA dual N-channel Trench MOSFET")
+			(fields
+				(field
+					(name "MPN") "C193381")
+				(field
+					(name "LCSC") "C193381")
+				(field
+					(name "Footprint") "easyeda2kicad:SOT-363_L2.0-W1.3-P0.65-LS2.1-BR")
+				(field
+					(name "Datasheet") "https://datasheet.lcsc.com/lcsc/1810011113_Nexperia-BSS138PS-115_C193381.pdf")
+				(field
+					(name "Description") "60 V, 320 mA dual N-channel Trench MOSFET")
+			)
+			(libsource
+				(lib "RevK")
+				(part "BSS138PS")
+				(description "60 V, 320 mA dual N-channel Trench MOSFET")
+			)
+			(property
+				(name "MPN")
+				(value "C193381")
+			)
+			(property
+				(name "LCSC")
+				(value "C193381")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32c6_daikin")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32c6_daikin.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?363*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7d28d119-185d-473e-82a8-311fba6817d7" "2d804dda-889f-48e3-81ae-8ce1d0227e87")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "10k")
+			(footprint "easyeda2kicad:R0402")
+			(description "Resistor")
+			(fields
+				(field
+					(name "MPN") "C25744")
+				(field
+					(name "LCSC") "C25744")
+				(field
+					(name "Footprint") "easyeda2kicad:R0402")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "C25744")
+			)
+			(property
+				(name "LCSC")
+				(value "C25744")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32c6_daikin")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32c6_daikin.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a30d4ba3-1f64-45d2-9789-1d7fe36b1693")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "10k")
+			(footprint "easyeda2kicad:R0402")
+			(description "Resistor")
+			(fields
+				(field
+					(name "MPN") "C25744")
+				(field
+					(name "LCSC") "C25744")
+				(field
+					(name "Footprint") "easyeda2kicad:R0402")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "C25744")
+			)
+			(property
+				(name "LCSC")
+				(value "C25744")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32c6_daikin")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32c6_daikin.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c4cea199-d728-43f2-b963-b56ec24ac434")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "10k")
+			(footprint "easyeda2kicad:R0402")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C25744")
+				(field
+					(name "Footprint") "easyeda2kicad:R0402")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C25744")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32c6_daikin")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32c6_daikin.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "da63aaf5-07aa-4b54-9251-ea288c53acf7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "150k 1%")
+			(footprint "easyeda2kicad:R0603")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C22807")
+				(field
+					(name "Footprint") "easyeda2kicad:R0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C22807")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32c6_daikin")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32c6_daikin.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "36dc4dce-3168-4dfa-a8b0-0824004a9197")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "150k 1%")
+			(footprint "easyeda2kicad:R0603")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C22807")
+				(field
+					(name "Footprint") "easyeda2kicad:R0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C22807")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32c6_daikin")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32c6_daikin.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "19a864fb-570b-4e34-91d4-f3078d12a90b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "33k 1%")
+			(footprint "easyeda2kicad:R0402")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C25779")
+				(field
+					(name "Footprint") "easyeda2kicad:R0402")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C25779")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32c6_daikin")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32c6_daikin.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "45ff6f5f-b438-4733-91e6-8467bf9e32b9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R10")
+			(value "220R")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C1226")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C1226")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32c6_daikin")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32c6_daikin.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "10555acd-29c6-4f0d-9a38-5326ecf7366c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R11")
+			(value "220R")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C1226")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C1226")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32c6_daikin")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32c6_daikin.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4cdc17c2-465e-4c1f-a598-25cd9376f835")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "TPS562246")
+			(footprint "easyeda2kicad:SOT-5X3-6_L1.6-W1.2-P0.50-LS1.6-BR")
+			(datasheet "https://www.ti.com/lit/ds/symlink/tps562246.pdf")
+			(description "2A Synchronous Step-Down Voltage Regulator 580kHz, adjustable output voltage, 4.5-17V Input Voltage, 0.804V-7V Output Voltage, SOT-563")
+			(fields
+				(field
+					(name "LCSC") "C41833479")
+				(field
+					(name "Rotation Offset") "180")
+				(field
+					(name "Footprint") "easyeda2kicad:SOT-5X3-6_L1.6-W1.2-P0.50-LS1.6-BR")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tps562246.pdf")
+				(field
+					(name "Description") "2A Synchronous Step-Down Voltage Regulator 580kHz, adjustable output voltage, 4.5-17V Input Voltage, 0.804V-7V Output Voltage, SOT-563")
+			)
+			(libsource
+				(lib "RevK")
+				(part "TPS562246")
+				(description "2A Synchronous Step-Down Voltage Regulator 580kHz, adjustable output voltage, 4.5-17V Input Voltage, 0.804V-7V Output Voltage, SOT-563")
+			)
+			(property
+				(name "LCSC")
+				(value "C41833479")
+			)
+			(property
+				(name "Rotation Offset")
+				(value "180")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32c6_daikin")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32c6_daikin.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "step-down dcdc buck")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?563*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5230e798-5a0c-4247-b3f9-f091652d3db2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "XIAO-ESP32-C6")
+			(footprint "Seeed_XIAO:XIAO-ESP32-C6-DIP")
+			(datasheet "https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/")
+			(description "Seeed Studio XIAO ESP32-C6")
+			(fields
+				(field
+					(name "Footprint") "Seeed_XIAO:XIAO-ESP32-C6-DIP")
+				(field
+					(name "Datasheet") "https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/")
+				(field
+					(name "Description") "Seeed Studio XIAO ESP32-C6")
+			)
+			(libsource
+				(lib "Seeed_Studio_XIAO_Series")
+				(part "XIAO-ESP32-C6-SMD")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32c6_daikin")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32c6_daikin.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f65664e9-2bd1-4916-9aa2-b109d2ee5c9e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_01x05")
+			(description "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x05")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "D_TVS")
+			(description "Bidirectional transient-voltage-suppression diode")
+			(footprints
+				(fp "TO-???*")
+				(fp "*_Diode_*")
+				(fp "*SingleDiode*")
+				(fp "D_*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "D_TVS")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Bidirectional transient-voltage-suppression diode")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "L")
+			(description "Inductor")
+			(footprints
+				(fp "Choke_*")
+				(fp "*Coil*")
+				(fp "Inductor_*")
+				(fp "L_*")
+			)
+			(fields
+				(field
+					(name "Reference") "L")
+				(field
+					(name "Value") "L")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Inductor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "Polyfuse")
+			(description "Resettable fuse, polymeric positive temperature coefficient")
+			(footprints
+				(fp "*polyfuse*")
+				(fp "*PTC*")
+			)
+			(fields
+				(field
+					(name "Reference") "F")
+				(field
+					(name "Value") "Polyfuse")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resettable fuse, polymeric positive temperature coefficient")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "RevK")
+			(part "BSS138PS")
+			(description "60 V, 320 mA dual N-channel Trench MOSFET")
+			(docs "https://datasheet.lcsc.com/lcsc/1810011113_Nexperia-BSS138PS-115_C193381.pdf")
+			(footprints
+				(fp "SOT?363*")
+			)
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "BSS138PS")
+				(field
+					(name "Footprint") "RevK:SOT-363_SC-70-6")
+				(field
+					(name "Datasheet") "https://datasheet.lcsc.com/lcsc/1810011113_Nexperia-BSS138PS-115_C193381.pdf")
+				(field
+					(name "Description") "60 V, 320 mA dual N-channel Trench MOSFET")
+				(field
+					(name "MPN") "C193381")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "SN")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GN")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "SP")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "DP")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "GP")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "DN")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "RevK")
+			(part "ES05D1MC10")
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "RevK:DFN1006-2L")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+				(field
+					(name "MPN") "C5137770")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "RevK")
+			(part "TPS562246")
+			(description "2A Synchronous Step-Down Voltage Regulator 580kHz, adjustable output voltage, 4.5-17V Input Voltage, 0.804V-7V Output Voltage, SOT-563")
+			(docs "https://www.ti.com/lit/ds/symlink/tps562246.pdf")
+			(footprints
+				(fp "SOT?563*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TPS562246")
+				(field
+					(name "Footprint") "RevK:SOT-563")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tps562246.pdf")
+				(field
+					(name "Description") "2A Synchronous Step-Down Voltage Regulator 580kHz, adjustable output voltage, 4.5-17V Input Voltage, 0.804V-7V Output Voltage, SOT-563")
+				(field
+					(name "MPN") "C41833479")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VIN")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "SW")
+					(type "output")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "VBST")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "VFB")
+					(type "input")
+				)
+			)
+		)
+		(libpart
+			(lib "Seeed_Studio_XIAO_Series")
+			(part "XIAO-ESP32-C6-SMD")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "XIAO-ESP32-C6-SMD")
+				(field
+					(name "Footprint") "Seeed_XIAO:XIAO-ESP32-C6-DIP")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "D0")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "D1")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "D2")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "D3")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "D4")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "D5")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "D6")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "D7")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "D8")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "D9")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "D10")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "3V3_OUT")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "VBUS")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "MTDI")
+					(type "passive")
+				)
+				(pin
+					(num "16")
+					(name "MTDO")
+					(type "passive")
+				)
+				(pin
+					(num "17")
+					(name "EN")
+					(type "passive")
+				)
+				(pin
+					(num "18")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "19")
+					(name "MTMS")
+					(type "passive")
+				)
+				(pin
+					(num "20")
+					(name "MTCK")
+					(type "passive")
+				)
+				(pin
+					(num "21")
+					(name "BOOT")
+					(type "passive")
+				)
+				(pin
+					(num "22")
+					(name "3V3_OUT")
+					(type "passive")
+				)
+				(pin
+					(num "23")
+					(name "VBAT")
+					(type "passive")
+				)
+				(pin
+					(num "24")
+					(name "GND")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Seeed_Studio_XIAO_Series")
+			(uri "${KIPRJMOD}/lib/Seeed_Studio_XIAO_Series.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "/12V_IN")
+			(class "Default")
+			(node
+				(ref "F1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "/S21_RX_CONN")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "/S21_TX_CONN")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "/S21_TX_CORE")
+			(class "Default")
+			(node
+				(ref "D3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "2")
+				(pinfunction "GN_2")
+				(pintype "input")
+			)
+			(node
+				(ref "R10")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "3V3")
+			(class "Default")
+			(node
+				(ref "C15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C19")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "L1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "C15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C16")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C17")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D5")
+				(pin "2")
+				(pinfunction "A2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "1")
+				(pinfunction "SN_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "4")
+				(pinfunction "DP_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "7")
+			(name "Net-(Q1B-SP)")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "3")
+				(pinfunction "SP_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "Net-(U1-EN)")
+			(class "Default")
+			(node
+				(ref "R5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "EN_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "9")
+			(name "Net-(U1-SW)")
+			(class "Default")
+			(node
+				(ref "C18")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "L1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "SW_2")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "10")
+			(name "Net-(U1-VBST)")
+			(class "Default")
+			(node
+				(ref "C18")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "VBST_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "Net-(U1-VFB)")
+			(class "Default")
+			(node
+				(ref "C19")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "VFB_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "13")
+			(name "RX1")
+			(class "Default")
+			(node
+				(ref "Q1")
+				(pin "6")
+				(pinfunction "DN_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "15")
+			(name "TX1")
+			(class "Default")
+			(node
+				(ref "Q1")
+				(pin "5")
+				(pinfunction "GP_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "16")
+			(name "V_in")
+			(class "Default")
+			(node
+				(ref "C16")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C17")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D5")
+				(pin "1")
+				(pinfunction "A1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "F1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "VIN_1")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "17")
+			(name "unconnected-(J2-Pin_1-Pad1)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "18")
+			(name "unconnected-(R1-Pad1)")
+			(class "Default")
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "19")
+			(name "unconnected-(R2-Pad2)")
+			(class "Default")
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "20")
+			(name "unconnected-(R3-Pad2)")
+			(class "Default")
+			(node
+				(ref "R3")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "21")
+			(name "unconnected-(U2-3V3_OUT-Pad12)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "12")
+				(pinfunction "3V3_OUT_12")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "unconnected-(U2-3V3_OUT-Pad22)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "22")
+				(pinfunction "3V3_OUT_22")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "unconnected-(U2-BOOT-Pad21)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "21")
+				(pinfunction "BOOT_21")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "unconnected-(U2-D0-Pad1)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "D0_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "unconnected-(U2-D1-Pad2)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "D1_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "26")
+			(name "unconnected-(U2-D2-Pad3)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "D2_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "27")
+			(name "unconnected-(U2-D3-Pad4)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "D3_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "28")
+			(name "unconnected-(U2-D4-Pad5)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "D4_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "29")
+			(name "unconnected-(U2-D5-Pad6)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "6")
+				(pinfunction "D5_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "30")
+			(name "unconnected-(U2-D6-Pad7)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "7")
+				(pinfunction "D6_7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "31")
+			(name "unconnected-(U2-D7-Pad8)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "8")
+				(pinfunction "D7_8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "32")
+			(name "unconnected-(U2-D8-Pad9)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "9")
+				(pinfunction "D8_9")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "33")
+			(name "unconnected-(U2-D9-Pad10)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "10")
+				(pinfunction "D9_10")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "34")
+			(name "unconnected-(U2-D10-Pad11)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "11")
+				(pinfunction "D10_11")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "35")
+			(name "unconnected-(U2-EN-Pad17)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "17")
+				(pinfunction "EN_17")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "36")
+			(name "unconnected-(U2-GND-Pad13)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "13")
+				(pinfunction "GND_13")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "37")
+			(name "unconnected-(U2-GND-Pad18)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "18")
+				(pinfunction "GND_18")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "38")
+			(name "unconnected-(U2-GND-Pad24)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "24")
+				(pinfunction "GND_24")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "39")
+			(name "unconnected-(U2-MTCK-Pad20)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "20")
+				(pinfunction "MTCK_20")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "40")
+			(name "unconnected-(U2-MTDI-Pad15)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "15")
+				(pinfunction "MTDI_15")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "41")
+			(name "unconnected-(U2-MTDO-Pad16)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "16")
+				(pinfunction "MTDO_16")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "42")
+			(name "unconnected-(U2-MTMS-Pad19)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "19")
+				(pinfunction "MTMS_19")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "43")
+			(name "unconnected-(U2-VBAT-Pad23)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "23")
+				(pinfunction "VBAT_23")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "44")
+			(name "unconnected-(U2-VBUS-Pad14)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "14")
+				(pinfunction "VBUS_14")
+				(pintype "passive")
+			)
+		)
+	)
+)
