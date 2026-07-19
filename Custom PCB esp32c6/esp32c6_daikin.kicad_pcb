@@ -131,7 +131,7 @@
 	(footprint "easyeda2kicad:R0402"
 		(layer "F.Cu")
 		(uuid "021648f7-33f7-44a0-9b42-af52fe0a187f")
-		(at 153.7 103.480384 90)
+		(at 177.147 106.118 90)
 		(property "Reference" "R1"
 			(at 0 -4 90)
 			(layer "F.SilkS")
@@ -1676,7 +1676,7 @@
 	(footprint "easyeda2kicad:R0402"
 		(layer "F.Cu")
 		(uuid "341c29bf-b537-452c-b6ab-2dbbc8f4e2a5")
-		(at 154.259807 93.15)
+		(at 152.089 108.891)
 		(property "Reference" "R2"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -5971,7 +5971,7 @@
 	(footprint "easyeda2kicad:C0402"
 		(layer "F.Cu")
 		(uuid "f070b05b-7136-487b-9e57-5d7d96d803b4")
-		(at 154 98.5 90)
+		(at 182.279 89.243 90)
 		(property "Reference" "C16"
 			(at 0 -4 90)
 			(layer "F.SilkS")
@@ -7016,7 +7016,8 @@
 		)
 		(polygon
 			(pts
-				(xy 146 90) (xy 150.3 90) (xy 150.3 92.2) (xy 155.5 92.2) (xy 155.5 104.8) (xy 150.3 104.8) (xy 150.3 107) (xy 146 107)
+				(xy 146 90) (xy 150.3 90) (xy 150.3 92.2) (xy 155.5 92.2) (xy 155.5 104.8) (xy 150.3 104.8) (xy 150.3 107)
+				(xy 146 107)
 			)
 		)
 	)
