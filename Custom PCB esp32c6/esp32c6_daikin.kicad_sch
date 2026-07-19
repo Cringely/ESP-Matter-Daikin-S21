@@ -4087,6 +4087,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 144.145 30.48)
@@ -4898,7 +5013,7 @@
 		)
 		(uuid "30f970de-9fe9-4d49-ae7c-13c966abdd15")
 	)
-	(label "3.3V"
+	(label "5V_BUCK"
 		(at 166.37 22.86 0)
 		(effects
 			(font
@@ -4942,30 +5057,6 @@
 			)
 		)
 	)
-	(global_label "TX0"
-		(shape input)
-		(at 104.14 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "51fd0d07-5716-42c3-b99b-d478c1002d47")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.5118 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "V_in"
 		(shape input)
 		(at 63.5 22.86 180)
@@ -4990,54 +5081,6 @@
 			)
 		)
 	)
-	(global_label "3V3"
-		(shape input)
-		(at 72.39 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "872ad7bd-c2d1-410e-a0c8-b5eec44c8011")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.8972 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "RX0"
-		(shape input)
-		(at 104.14 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "97ca844c-e11e-4364-a1bd-164774d3c5e8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.8142 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "V_in"
 		(shape input)
 		(at 190.5 60.96 180)
@@ -5059,30 +5102,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "3V3"
-		(shape input)
-		(at 189.23 22.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fa284634-3a4d-4185-960a-03f02efd0699")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.7228 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -5327,7 +5346,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150k 1%"
+		(property "Value" "220k 1%"
 			(at 150.241 28.194 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5878,7 +5897,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33k 1%"
+		(property "Value" "30k 1%"
 			(at 150.241 37.846 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5943,90 +5962,6 @@
 			(project "esp32c6_daikin"
 				(path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 52.07 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49102033-957c-4919-b31b-3a76abdf7e0b")
-		(property "Reference" "#PWR015"
-			(at 52.07 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 52.07 114.9334 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e3c7d41e-3364-4edc-bc6e-feb677fbd8cb")
-		)
-		(instances
-			(project "USBA"
-				(path "/2d210a96-f81f-42a9-8bf4-1b43c11086f3"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-			(project "esp32c6_daikin"
-				(path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6232,91 +6167,6 @@
 			(project "esp32c6_daikin"
 				(path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 104.14 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65dcc1b3-31b5-416d-9e7d-7124123aae87")
-		(property "Reference" "#PWR013"
-			(at 104.14 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 118.745 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f7d34b11-04db-4bdb-a5dd-fc2a86f5a45e")
-		)
-		(instances
-			(project "USBA"
-				(path "/2d210a96-f81f-42a9-8bf4-1b43c11086f3"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-			(project "esp32c6_daikin"
-				(path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6768,7 +6618,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF 6V3"
+		(property "Value" "47uF 10V"
 			(at 154.432 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6859,7 +6709,7 @@
 				)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "47pF"
 			(at 141.224 24.384 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7159,85 +7009,6 @@
 			(project "esp32c6_daikin"
 				(path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 110.49 115.57 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c2fa535c-67d3-4771-83a5-79b80cc92d60")
-		(property "Reference" "#PWR01"
-			(at 104.14 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 110.998 118.11 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "acf50c16-22f0-45ae-8b4c-93e6fb58c42d")
-		)
-		(instances
-			(project "esp32c6_daikin"
-				(path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -7702,84 +7473,6 @@
 			(project "esp32c6_daikin"
 				(path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 35.56 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa10869f-17c4-4c3b-af92-26098b3bf5d7")
-		(property "Reference" "#PWR02"
-			(at 35.56 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 35.56 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c54ea2dc-f343-46ab-8b1b-e1c343b4308a")
-		)
-		(instances
-			(project "esp32c6_daikin"
-				(path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -8839,6 +8532,791 @@
 			(project "esp32c6_daikin"
 				(path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "5V_BUCK"
+		(at 189.23 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa284634-3a4d-4185-960a-03f02efd0699")
+	)
+	(no_connect
+		(at 48.26 162.56)
+		(uuid "27006084-7622-4449-bd3b-cbc29ced8feb")
+	)
+	(no_connect
+		(at 48.26 166.37)
+		(uuid "0c4508cb-ea77-4541-a038-8c188363bbd3")
+	)
+	(no_connect
+		(at 48.26 170.18)
+		(uuid "519c948c-d62b-4609-93b6-fe341e210b84")
+	)
+	(no_connect
+		(at 48.26 173.99)
+		(uuid "f6bfa2eb-ea6b-432f-92be-8743bab67a9c")
+	)
+	(no_connect
+		(at 48.26 177.8)
+		(uuid "fe1efcbe-6b70-4964-989e-3f2e3241ee87")
+	)
+	(no_connect
+		(at 48.26 181.61)
+		(uuid "d78a682d-fdae-4ec6-8ace-942cf8ca4745")
+	)
+	(no_connect
+		(at 93.98 181.61)
+		(uuid "1f2e8d06-9b98-4b7c-9d80-f7349a8d386c")
+	)
+	(no_connect
+		(at 93.98 177.8)
+		(uuid "0239c4e5-b963-4496-a552-e48f22b1a2e1")
+	)
+	(no_connect
+		(at 93.98 173.99)
+		(uuid "f240cfd5-a230-4105-92b2-bd72a8b92311")
+	)
+	(no_connect
+		(at 55.88 151.13)
+		(uuid "f7e4b2a7-e7de-4d00-a6ee-93eef7ddba8a")
+	)
+	(no_connect
+		(at 59.69 151.13)
+		(uuid "4ff685ef-b007-46d0-97e7-507c5033d821")
+	)
+	(no_connect
+		(at 63.5 151.13)
+		(uuid "6a0b6b80-f2de-46d5-95be-4b5d292b242a")
+	)
+	(no_connect
+		(at 67.31 151.13)
+		(uuid "06b46151-2299-4a6f-b498-8b1465d6abf1")
+	)
+	(no_connect
+		(at 71.12 151.13)
+		(uuid "ae4689f9-a703-4707-8e0f-d0baa16b9a8f")
+	)
+	(no_connect
+		(at 74.93 151.13)
+		(uuid "c4cdb929-9981-468a-8b87-175fb7f85e3e")
+	)
+	(no_connect
+		(at 78.74 151.13)
+		(uuid "6609328d-26da-4dd3-b2b5-f4b18aa74415")
+	)
+	(no_connect
+		(at 82.55 151.13)
+		(uuid "bf0cf6af-325a-4b47-babc-b893502c83c3")
+	)
+	(no_connect
+		(at 67.31 191.77)
+		(uuid "133dff9a-e76f-47de-b206-b01810e7d508")
+	)
+	(no_connect
+		(at 72.39 191.77)
+		(uuid "563fb054-b661-48e5-92bc-51c00ead467b")
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 172 56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b38f8564-9c99-472c-ba36-a8b650b58013")
+		(property "Reference" "D6"
+			(at 173.5 53.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMEG2005"
+			(at 173.5 58.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 172 56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172 56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 172 56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0302fabb-856d-409a-8629-dedb0f24f79f")
+		)
+		(pin "1"
+			(uuid "0d05032c-8d98-45c1-a908-c524bb3d5323")
+		)
+		(instances
+			(project "esp32c6_daikin"
+				(path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 175.81 56) (xy 177.8 56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "319ca13b-efa7-4574-8a9e-7f08509f3c1f")
+	)
+	(label "5V_BUCK"
+		(at 177.8 56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f45b6305-6a0e-4546-ac69-5e7bb6e77e9a")
+	)
+	(wire
+		(pts
+			(xy 168.19 56) (xy 164.19 56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce966464-d126-471e-8aee-45edbaa84780")
+	)
+	(label "VBUS"
+		(at 164.19 56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "116cf137-3770-47ad-b98b-c876eee5bc46")
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 160 60 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "02b8684e-0cea-4e9a-aeff-38bb84ee10b5")
+		(property "Reference" "FB1"
+			(at 161.5 57.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "600R@100MHz 500mA"
+			(at 161.5 62.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 160 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 160 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f06960f-75c4-4843-957d-a59f3d0df372")
+		)
+		(pin "2"
+			(uuid "7e201d57-1114-4a66-bca3-5ba75ba7bf24")
+		)
+		(instances
+			(project "esp32c6_daikin"
+				(path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 160 56.19) (xy 160 54.0)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a995b5b4-5651-4752-b5d7-892044302917")
+	)
+	(label "5V_BUCK"
+		(at 160 54.0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a11b9120-1de4-49ca-b5a8-7cc0c7a9942b")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 160 70 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49f8b5b6-ca04-4552-acbb-32fea24d408f")
+		(property "Reference" "C20"
+			(at 161.5 67.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 25V"
+			(at 161.5 72.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0805"
+			(at 160 70 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160 70 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 160 70 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "12ed8f14-0da2-4aa4-bc96-c82c3e3dd1c6")
+		)
+		(pin "1"
+			(uuid "4c876765-7d75-43b9-a527-3f636062bcd4")
+		)
+		(instances
+			(project "esp32c6_daikin"
+				(path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 160 63.81) (xy 160 66.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bec84071-573a-4757-9ca3-2f3cbb035e6d")
+	)
+	(wire
+		(pts
+			(xy 160 73.81) (xy 160 77.0)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5497c50f-a48f-44bd-9a89-718a8cdd4c33")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160 77.0 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f5803a9-5e7d-4c51-b96b-c8a2662b1277")
+		(property "Reference" "#PWR0112"
+			(at 160 83.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 160 81.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160 77.0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160 77.0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160 77.0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b646b403-a8e7-4e2f-a1fd-68a4037f9170")
+		)
+		(instances
+			(project "esp32c6_daikin"
+				(path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 93.98 162.56) (xy 97.98 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d2722b3-12ef-4be2-b4bb-017b779abeab")
+	)
+	(label "VBUS"
+		(at 97.98 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3136d819-a9c9-41c2-8c59-535070d11d0b")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 176 76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b897b793-0db9-4956-803d-c26d706d8fed")
+		(property "Reference" "#FLG01"
+			(at 176 74.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 176 72.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176 76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176 76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 176 76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0efb2e6-3cd1-4205-80b1-ae6055720519")
+		)
+		(instances
+			(project "esp32c6_daikin"
+				(path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 176 76) (xy 176 73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c344289-44db-454f-9f1d-fb9e74c19f02")
+	)
+	(global_label "V_in"
+		(shape input)
+		(at 176 73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad422db8-0531-4c99-b121-928a600e4d1f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.5 73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 172 67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "135a2282-5d59-46e5-b834-620880b20424")
+		(property "Reference" "#FLG02"
+			(at 172 65.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 172 63.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172 67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172 67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 172 67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38448548-329a-4ca4-8ff4-7bda13e1ca82")
+		)
+		(instances
+			(project "esp32c6_daikin"
+				(path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 172 67) (xy 172 70)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "087bdf8a-c685-40f6-8266-b1bb6a97fb79")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172 70 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2267ec2a-c41f-430a-a940-71c3fcf8f59b")
+		(property "Reference" "#PWR0113"
+			(at 172 76.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 172 74.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172 70 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172 70 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172 70 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02a3bcf0-95d3-4e83-aeaf-9ccfbfc467f3")
+		)
+		(instances
+			(project "esp32c6_daikin"
+				(path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
