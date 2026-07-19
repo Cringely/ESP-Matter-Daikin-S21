@@ -2776,7 +2776,7 @@
 					)
 				)
 			)
-			(property "Description" "2A Synchronous Step-Down Voltage Regulator 580kHz, adjustable output voltage, 4.5-17V Input Voltage, 0.804V-7V Output Voltage, SOT-563"
+			(property "Description" "2A Synchronous Step-Down Voltage Regulator 1.28MHz, adjustable output voltage, 4.5-17V Input Voltage, 0.6V-7V Output Voltage, SOT-563"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4461,16 +4461,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 34.29) (xy 184.15 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23fc8e61-eecc-476f-9f21-55d90b0cfafe")
-	)
-	(wire
-		(pts
 			(xy 179.07 38.1) (xy 184.15 38.1)
 		)
 		(stroke
@@ -4478,26 +4468,6 @@
 			(type default)
 		)
 		(uuid "241468bb-3a1a-4bcb-985f-c628c15d5978")
-	)
-	(wire
-		(pts
-			(xy 163.83 22.86) (xy 163.83 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24447424-256f-4ee8-8ef1-125f6a3f9886")
-	)
-	(wire
-		(pts
-			(xy 168.91 34.29) (xy 168.91 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2550f2a0-470f-4038-a6e9-91e94c6a37d0")
 	)
 	(wire
 		(pts
@@ -4588,16 +4558,6 @@
 			(type default)
 		)
 		(uuid "41167d18-7a60-4e7e-8c1b-53e7d60a7c79")
-	)
-	(wire
-		(pts
-			(xy 168.91 22.86) (xy 168.91 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5107aeb2-60bf-48b9-8c3c-51e9e96ed22a")
 	)
 	(wire
 		(pts
@@ -4721,16 +4681,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 22.86) (xy 173.99 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e5a353f-eab4-417c-88a2-02c2d01f61e9")
-	)
-	(wire
-		(pts
 			(xy 67.31 22.86) (xy 67.31 24.13)
 		)
 		(stroke
@@ -4778,16 +4728,6 @@
 			(type default)
 		)
 		(uuid "bb37da84-75b2-48f6-b65f-f4e48d59ba9c")
-	)
-	(wire
-		(pts
-			(xy 173.99 34.29) (xy 173.99 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf551727-3ac7-49ea-9f70-25d310179f2c")
 	)
 	(wire
 		(pts
@@ -4851,16 +4791,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 34.29) (xy 179.07 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db528865-ba43-4b0f-9d50-b46b7e4af07a")
-	)
-	(wire
-		(pts
 			(xy 173.99 38.1) (xy 179.07 38.1)
 		)
 		(stroke
@@ -4878,26 +4808,6 @@
 			(type default)
 		)
 		(uuid "dc4bf3d3-9972-4bac-a1b4-b2f4074bbafd")
-	)
-	(wire
-		(pts
-			(xy 163.83 34.29) (xy 163.83 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd324008-acf0-4c56-b9ef-628654fde256")
-	)
-	(wire
-		(pts
-			(xy 184.15 22.86) (xy 184.15 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddc8e579-21ef-456d-82fb-1aa5051a315e")
 	)
 	(wire
 		(pts
@@ -4928,16 +4838,6 @@
 			(type default)
 		)
 		(uuid "f5abd923-c08d-48e3-93d3-841fdd0a04b4")
-	)
-	(wire
-		(pts
-			(xy 179.07 22.86) (xy 179.07 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5c7ae1d-cdd5-4195-b916-bc15c49a1a17")
 	)
 	(wire
 		(pts
@@ -6112,7 +6012,7 @@
 				)
 			)
 		)
-		(property "Description" "2A Synchronous Step-Down Voltage Regulator 580kHz, adjustable output voltage, 4.5-17V Input Voltage, 0.804V-7V Output Voltage, SOT-563"
+		(property "Description" "2A Synchronous Step-Down Voltage Regulator 1.28MHz, adjustable output voltage, 4.5-17V Input Voltage, 0.6V-7V Output Voltage, SOT-563"
 			(at 111.125 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -8745,107 +8645,6 @@
 		(uuid "116cf137-3770-47ad-b98b-c876eee5bc46")
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 160 60 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "02b8684e-0cea-4e9a-aeff-38bb84ee10b5")
-		(property "Reference" "FB1"
-			(at 161.5 57.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "600R@100MHz 500mA"
-			(at 161.5 62.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 160 60 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160 60 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 160 60 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9f06960f-75c4-4843-957d-a59f3d0df372")
-		)
-		(pin "2"
-			(uuid "7e201d57-1114-4a66-bca3-5ba75ba7bf24")
-		)
-		(instances
-			(project "esp32c6_daikin"
-				(path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
-					(reference "FB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 160 56.19) (xy 160 54.0)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a995b5b4-5651-4752-b5d7-892044302917")
-	)
-	(label "5V_BUCK"
-		(at 160 54.0 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a11b9120-1de4-49ca-b5a8-7cc0c7a9942b")
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 160 70 0)
 		(unit 1)
@@ -8935,6 +8734,16 @@
 			(type default)
 		)
 		(uuid "bec84071-573a-4757-9ca3-2f3cbb035e6d")
+	)
+	(label "VBUS"
+		(at 160 63.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e62f6198-76b3-4ba6-aa55-8d11f4f6dadb")
 	)
 	(wire
 		(pts
