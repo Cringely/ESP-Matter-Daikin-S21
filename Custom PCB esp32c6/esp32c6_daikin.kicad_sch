@@ -8477,7 +8477,7 @@
 	)
 	(global_label "RX1"
 		(shape input)
-		(at 189.23 78.74 0)
+		(at 189.23 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8486,7 +8486,7 @@
 		)
 		(uuid "6f50d6f2-f3f1-403b-9d90-6dfbb2f5475f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.23 78.74 0)
+			(at 189.23 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8594,7 +8594,7 @@
 		(uuid "770e77eb-b8dd-4d88-9d10-30edc2795ae1")
 	)
 	(label "HV2"
-		(at 189.23 88.9 0)
+		(at 189.23 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
