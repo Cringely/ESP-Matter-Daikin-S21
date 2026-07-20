@@ -5971,7 +5971,7 @@
 	(footprint "easyeda2kicad:C0402"
 		(layer "F.Cu")
 		(uuid "f070b05b-7136-487b-9e57-5d7d96d803b4")
-		(at 182.279 89.243 90)
+		(at 182.679 89.243 90)
 		(property "Reference" "C16"
 			(at 0 -4 90)
 			(layer "F.SilkS")
