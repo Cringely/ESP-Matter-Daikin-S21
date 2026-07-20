@@ -8589,6 +8589,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C96233"
+			(at 172 56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0302fabb-856d-409a-8629-dedb0f24f79f")
 		)
@@ -8700,6 +8711,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 160 70 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 160 70 0)
 			(hide yes)
 			(show_name no)
