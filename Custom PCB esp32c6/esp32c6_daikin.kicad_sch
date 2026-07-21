@@ -7564,7 +7564,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 215.9 81.28 90)
+		(at 223.52 99.06 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7574,7 +7574,7 @@
 		(dnp no)
 		(uuid "10555acd-29c6-4f0d-9a38-5326ecf7366c")
 		(property "Reference" "R10"
-			(at 217 68 90)
+			(at 220.54 96.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7585,7 +7585,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 224 68 90)
+			(at 226.54 96.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7656,7 +7656,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 213.36 78.74 90)
+		(at 223.52 90.17 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7666,7 +7666,7 @@
 		(dnp no)
 		(uuid "4cdc17c2-465e-4c1f-a598-25cd9376f835")
 		(property "Reference" "R11"
-			(at 217 65 90)
+			(at 220.54 93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7677,7 +7677,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 224 65 90)
+			(at 226.54 93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8177,12 +8177,12 @@
 		(uuid "9703ed9c-c18c-4321-8ea6-12c6f8f76817")
 	)
 	(label "HV1"
-		(at 212.09 81.28 0)
+		(at 219.71 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "770e77eb-b8dd-4d88-9d10-30edc2795ae1")
 	)
@@ -8207,12 +8207,12 @@
 		(uuid "22417c9c-0459-4039-b6d3-e44c1c934597")
 	)
 	(label "HV2"
-		(at 209.55 78.74 0)
+		(at 219.71 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "bc00f00e-5d7d-4ecd-8d32-b069b3e9aff1")
 	)
@@ -8242,12 +8242,12 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "716a3721-ea6b-4cee-9853-f3933fa9f6ba")
 	)
 	(label "S21_RX_CONN"
-		(at 219.71 81.28 0)
+		(at 227.33 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8272,12 +8272,12 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "06accb55-63f1-4ae8-8ac7-8ca29be8a575")
 	)
 	(label "S21_TX_CONN"
-		(at 217.17 78.74 0)
+		(at 227.33 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
