@@ -129,7 +129,7 @@ GOODWORK LCSC-house-brand ESD diode with no direct DigiKey/Mouser cross, so the 
 functional 0402 5 V bidirectional ESD equivalent (Bourns CG0402MLC-05E); the UNI-ROYAL
 resistors cross to same value/tolerance/package YAGEO parts at DigiKey, not identical MPNs.
 
-### As-ordered assembly variant (JLC, 2026-07-21)
+### JLC assembly cart selection (2026-07-21, order not yet placed)
 
 Five boards were ordered through JLCPCB assembly on 2026-07-21. JLC's parts matcher
 substituted several design parts for stocked equivalents; every substitution is same
@@ -230,8 +230,8 @@ footprint's courtyard geometry.
 - `xiao-render-top.png`, `xiao-render-bottom.png`, `xiao-render-assembled-top.png`,
   `xiao-render-assembled-bottom.png`, `xiao-render-assembled-angled.png`: board renders for
   the package record.
-- `jlc/BOM_xiao_jlc.xlsx`, `jlc/CPL_xiao_jlc.xlsx`: the as-ordered JLC BOM/CPL pair (see the
-  as-ordered assembly variant note under Bill of materials).
+- `jlc/BOM_xiao_jlc.xlsx`, `jlc/CPL_xiao_jlc.xlsx`: the JLC cart-selection BOM/CPL pair (see the
+  cart-selected assembly variant note under Bill of materials).
 
 Upload the GERBERS to the fab, not the `.kicad_pcb`. OSH Park and JLCPCB both take the
 gerber + drill set; the raw board file is not a fab input.
