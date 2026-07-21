@@ -5340,7 +5340,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.7251 74.0938 90)
+			(at 218 74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6187,7 +6187,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a7cff03-82ba-49d9-9945-0a8f1eaa3274")
 		(property "Reference" "D2"
-			(at 198.882 82.55 90)
+			(at 201 96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6198,7 +6198,7 @@
 			)
 		)
 		(property "Value" "ESD 5V bidir"
-			(at 196.85 82.55 0)
+			(at 184 96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6406,7 +6406,7 @@
 		(dnp no)
 		(uuid "a30d4ba3-1f64-45d2-9789-1d7fe36b1693")
 		(property "Reference" "R1"
-			(at 207.01 81.28 90)
+			(at 203 88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6417,7 +6417,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 205.74 83.82 90)
+			(at 203 90 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7390,7 +7390,7 @@
 		(dnp no)
 		(uuid "1870de83-7289-4095-b122-da2e251a9b5f")
 		(property "Reference" "F1"
-			(at 213.36 65.78999999999999 0)
+			(at 208 60 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7401,7 +7401,7 @@
 			)
 		)
 		(property "Value" "250mA-hold 1206"
-			(at 213.36 71.37 0)
+			(at 216 62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7482,7 +7482,7 @@
 		(dnp no)
 		(uuid "572e862c-79f9-493f-94f8-2c550da8ca47")
 		(property "Reference" "D5"
-			(at 204.47 61.98 0)
+			(at 206 59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7493,7 +7493,7 @@
 			)
 		)
 		(property "Value" "SMF15A 15V"
-			(at 204.47 67.56 0)
+			(at 194 63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7574,7 +7574,7 @@
 		(dnp no)
 		(uuid "10555acd-29c6-4f0d-9a38-5326ecf7366c")
 		(property "Reference" "R10"
-			(at 215.9 78.49 0)
+			(at 217 68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7585,7 +7585,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 215.9 84.07000000000001 0)
+			(at 224 68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7666,7 +7666,7 @@
 		(dnp no)
 		(uuid "4cdc17c2-465e-4c1f-a598-25cd9376f835")
 		(property "Reference" "R11"
-			(at 213.36 75.94999999999999 0)
+			(at 217 65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7677,7 +7677,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 213.36 81.53 0)
+			(at 224 65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7769,7 +7769,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 78.1 0)
+			(at 197 72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8053,7 +8053,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "6fc4853c-3988-4ffa-ab3e-e1208fa4fca5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
@@ -8326,7 +8326,7 @@
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Value" "GND"
-			(at 99.06 170.8134 0)
+			(at 102 167 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)))
@@ -8899,7 +8899,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 176 72.1 0)
+			(at 184 66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9099,7 +9099,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172 74.4 0)
+			(at 166 79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
