@@ -1,0 +1,391 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-07-20T14:41:27",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "key": "pth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "key": "npth_inside_courtyard"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.4",
+    "schematic_parity": [],
+    "source": "esp32c6_daikin.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Drilled hole too close to other hole (rule 'Clearance: hole to hole (perimeter), same net' min 0.2535 mm; actual 0.2356 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 12 [3V3] of U2",
+                    "pos": {
+                        "x": 162.04,
+                        "y": 90.88
+                    },
+                    "uuid": "30fdf3f0-13e7-4494-b3ae-180ed25f528b"
+                },
+                {
+                    "description": "Via [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 162.05,
+                        "y": 90.05
+                    },
+                    "uuid": "a38f8c45-9cb2-4773-964d-8da6a73df033"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (rule 'Clearance: hole to hole (perimeter), same net' min 0.2535 mm; actual 0.2356 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 12 [3V3] of U2",
+                    "pos": {
+                        "x": 162.04,
+                        "y": 90.88
+                    },
+                    "uuid": "30fdf3f0-13e7-4494-b3ae-180ed25f528b"
+                },
+                {
+                    "description": "Via [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 162.05,
+                        "y": 90.05
+                    },
+                    "uuid": "a38f8c45-9cb2-4773-964d-8da6a73df033"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 177.147,
+                        "y": 106.118
+                    },
+                    "uuid": "021648f7-33f7-44a0-9b42-af52fe0a187f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 180.9,
+                        "y": 89.0
+                    },
+                    "uuid": "05d5e8de-de14-4fc5-bc2d-2c66766a8be9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint D2",
+                    "pos": {
+                        "x": 172.0,
+                        "y": 107.0
+                    },
+                    "uuid": "1628354b-e173-40ff-b15a-5f2d198072dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint C18",
+                    "pos": {
+                        "x": 179.0,
+                        "y": 88.7
+                    },
+                    "uuid": "1a70aaf0-8f63-4337-91c9-a652f140bd1c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 152.089,
+                        "y": 108.891
+                    },
+                    "uuid": "341c29bf-b537-452c-b6ab-2dbbc8f4e2a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint C17",
+                    "pos": {
+                        "x": 173.5,
+                        "y": 96.0
+                    },
+                    "uuid": "3627b860-5530-4446-9bcd-c17b1e68e28e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 182.6,
+                        "y": 86.9
+                    },
+                    "uuid": "3a050f7c-edde-45c9-b661-5380c3d404dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint C19",
+                    "pos": {
+                        "x": 181.3,
+                        "y": 92.6
+                    },
+                    "uuid": "3a52af27-d6ec-4bc9-af9d-83fa7d5a962d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 158.3,
+                        "y": 93.5196
+                    },
+                    "uuid": "694ed479-f6e8-4aa9-b5a7-e577957ef26b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint C20",
+                    "pos": {
+                        "x": 169.8,
+                        "y": 93.4
+                    },
+                    "uuid": "95199ccf-2297-4f97-95ad-a460d967e245"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint R8",
+                    "pos": {
+                        "x": 181.3,
+                        "y": 93.8
+                    },
+                    "uuid": "969e71cf-c515-4b73-b495-c86fda38c1e9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint L1",
+                    "pos": {
+                        "x": 186.4,
+                        "y": 89.15
+                    },
+                    "uuid": "97264bcf-a22c-4214-a861-78a2192679c6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 175.5208,
+                        "y": 108.0694
+                    },
+                    "uuid": "a56455c5-ba73-4898-9de1-f722d3b83986"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint R6",
+                    "pos": {
+                        "x": 183.4,
+                        "y": 93.4
+                    },
+                    "uuid": "a67b3faa-06c6-47a1-92fb-791ab2aa0af3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint D3",
+                    "pos": {
+                        "x": 173.0045,
+                        "y": 108.3334
+                    },
+                    "uuid": "a80873ab-d26d-4d7a-8b82-18a4660d7075"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint C15",
+                    "pos": {
+                        "x": 186.65,
+                        "y": 93.3
+                    },
+                    "uuid": "ac357916-bb2f-45b4-aed3-ee05c56ea4cd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint R5",
+                    "pos": {
+                        "x": 178.3,
+                        "y": 92.8
+                    },
+                    "uuid": "afe42ce0-66f8-4540-a8ac-b07f5b71c00e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint R12",
+                    "pos": {
+                        "x": 174.5,
+                        "y": 101.6
+                    },
+                    "uuid": "ee6e225a-f978-4583-832e-561e571cb379"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint C16",
+                    "pos": {
+                        "x": 183.3,
+                        "y": 89.5
+                    },
+                    "uuid": "f070b05b-7136-487b-9e57-5d7d96d803b4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'XIAO-ESP32-C6-DIP' does not match copy in library 'Seeed_XIAO'",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 159.5,
+                        "y": 98.5
+                    },
+                    "uuid": "512be7c2-47a2-4d89-b737-072bb9fc53af"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

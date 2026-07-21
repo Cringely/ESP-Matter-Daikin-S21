@@ -1,0 +1,3162 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-07-18T08:56:08",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "key": "pth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "key": "npth_inside_courtyard"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.4",
+    "schematic_parity": [],
+    "source": "esp32c6_daikin.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [/S21_TX_CORE] on F.Cu, length 2.0900 mm",
+                    "pos": {
+                        "x": 173.24,
+                        "y": 99.92
+                    },
+                    "uuid": "06973f1c-a7d9-458c-bc1d-f5feb3fbd29b"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 186.16,
+                        "y": 89.75
+                    },
+                    "uuid": "5b67ff27-476d-4386-a0db-f864cad44e28"
+                },
+                {
+                    "description": "Segment of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 178.89,
+                        "y": 91.89
+                    },
+                    "uuid": "aacbd245-9cb6-47e7-a333-8c53adb1504f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 186.16,
+                        "y": 89.75
+                    },
+                    "uuid": "5b67ff27-476d-4386-a0db-f864cad44e28"
+                },
+                {
+                    "description": "Segment of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 187.31,
+                        "y": 107.11
+                    },
+                    "uuid": "995c903e-9f82-46b0-9c8d-3b6b4da4a4b6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 154.6,
+                        "y": 109.57
+                    },
+                    "uuid": "b13039a3-5a77-492a-a4c4-63d89e20575b"
+                },
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 147.61,
+                        "y": 107.72
+                    },
+                    "uuid": "0620db3c-0c35-4f33-b958-167eda2ae51b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 154.6,
+                        "y": 109.57
+                    },
+                    "uuid": "b13039a3-5a77-492a-a4c4-63d89e20575b"
+                },
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 154.61,
+                        "y": 92.72
+                    },
+                    "uuid": "b4721ec2-ac38-418d-a188-6ef8b331fdb1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 154.6,
+                        "y": 109.57
+                    },
+                    "uuid": "b13039a3-5a77-492a-a4c4-63d89e20575b"
+                },
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 155.18,
+                        "y": 91.72
+                    },
+                    "uuid": "d5e14efc-0b57-4825-89d7-09acb5c2a7d5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 154.6,
+                        "y": 109.57
+                    },
+                    "uuid": "b13039a3-5a77-492a-a4c4-63d89e20575b"
+                },
+                {
+                    "description": "Circle of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 154.62,
+                        "y": 91.08
+                    },
+                    "uuid": "0d4048b8-bc29-4c19-ada0-fb6aa22052d0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Drilled hole too close to other hole (rule 'Clearance: hole to hole (perimeter), different nets' min 0.4995 mm; actual 0.4983 mm)",
+            "items": [
+                {
+                    "description": "Via [TX1] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 168.14,
+                        "y": 101.95
+                    },
+                    "uuid": "261c98c0-29ea-448e-8a2c-e8e72d08ef72"
+                },
+                {
+                    "description": "Via [RX1] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 167.97,
+                        "y": 102.73
+                    },
+                    "uuid": "f4a52938-9629-4077-84fc-1a6ccc10d7f7"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 173.48,
+                        "y": 101.47
+                    },
+                    "uuid": "021648f7-33f7-44a0-9b42-af52fe0a187f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint Reset1",
+                    "pos": {
+                        "x": 156.6,
+                        "y": 100.54
+                    },
+                    "uuid": "02342531-3d2d-4656-91d7-88440bacf850"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R11",
+                    "pos": {
+                        "x": 176.0,
+                        "y": 101.3
+                    },
+                    "uuid": "0235e0c5-7994-4950-9c95-63b8b52fc32a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 168.68,
+                        "y": 94.995
+                    },
+                    "uuid": "05d5e8de-de14-4fc5-bc2d-2c66766a8be9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint Boot1",
+                    "pos": {
+                        "x": 160.14,
+                        "y": 105.24
+                    },
+                    "uuid": "07432af6-d3bd-41db-ac61-fab92b6bc48f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint D4",
+                    "pos": {
+                        "x": 172.82,
+                        "y": 99.92
+                    },
+                    "uuid": "074c9cc5-f64e-4cb1-8a86-12ed4c91c94d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Fuse'",
+            "items": [
+                {
+                    "description": "Footprint F1",
+                    "pos": {
+                        "x": 176.2,
+                        "y": 93.0
+                    },
+                    "uuid": "0f76e031-96ce-482f-8023-accf4adf1ae2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint D2",
+                    "pos": {
+                        "x": 170.39,
+                        "y": 103.64
+                    },
+                    "uuid": "1628354b-e173-40ff-b15a-5f2d198072dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint R9",
+                    "pos": {
+                        "x": 158.18,
+                        "y": 94.2
+                    },
+                    "uuid": "181b5bf1-43ca-4e2f-b19c-acbf860a7249"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint C18",
+                    "pos": {
+                        "x": 166.95,
+                        "y": 96.01
+                    },
+                    "uuid": "1a70aaf0-8f63-4337-91c9-a652f140bd1c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint C6",
+                    "pos": {
+                        "x": 159.49,
+                        "y": 91.79
+                    },
+                    "uuid": "30b74f2f-2d5f-4a80-b6fe-efc2512b1cef"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 170.75,
+                        "y": 99.9
+                    },
+                    "uuid": "341c29bf-b537-452c-b6ab-2dbbc8f4e2a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint C17",
+                    "pos": {
+                        "x": 173.13,
+                        "y": 93.35
+                    },
+                    "uuid": "3627b860-5530-4446-9bcd-c17b1e68e28e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint C8",
+                    "pos": {
+                        "x": 157.73,
+                        "y": 96.18
+                    },
+                    "uuid": "36cc0dab-0a60-4edf-9ad0-42ae9b83f810"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 171.48,
+                        "y": 93.46
+                    },
+                    "uuid": "3a050f7c-edde-45c9-b661-5380c3d404dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint C19",
+                    "pos": {
+                        "x": 169.87,
+                        "y": 97.85
+                    },
+                    "uuid": "3a52af27-d6ec-4bc9-af9d-83fa7d5a962d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint C5",
+                    "pos": {
+                        "x": 163.43,
+                        "y": 99.0
+                    },
+                    "uuid": "4ae1440b-8570-48a7-b962-1e7f27ccb6d7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 159.88,
+                        "y": 94.74
+                    },
+                    "uuid": "694ed479-f6e8-4aa9-b5a7-e577957ef26b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint C4",
+                    "pos": {
+                        "x": 162.22,
+                        "y": 98.92
+                    },
+                    "uuid": "8f51b435-542d-4a74-92da-f9d51c5997c9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 159.82,
+                        "y": 98.94
+                    },
+                    "uuid": "903d2a3e-c607-4018-b75d-253062193e55"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint R8",
+                    "pos": {
+                        "x": 172.47,
+                        "y": 98.43
+                    },
+                    "uuid": "969e71cf-c515-4b73-b495-c86fda38c1e9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint L1",
+                    "pos": {
+                        "x": 163.15,
+                        "y": 94.56
+                    },
+                    "uuid": "97264bcf-a22c-4214-a861-78a2192679c6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 169.96,
+                        "y": 101.95
+                    },
+                    "uuid": "a56455c5-ba73-4898-9de1-f722d3b83986"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint R6",
+                    "pos": {
+                        "x": 167.68,
+                        "y": 98.19
+                    },
+                    "uuid": "a67b3faa-06c6-47a1-92fb-791ab2aa0af3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D5",
+                    "pos": {
+                        "x": 176.2,
+                        "y": 97.9
+                    },
+                    "uuid": "a75085b6-9126-4af0-8f18-21a9afbbe4fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint D3",
+                    "pos": {
+                        "x": 172.71,
+                        "y": 104.17
+                    },
+                    "uuid": "a80873ab-d26d-4d7a-8b82-18a4660d7075"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint C15",
+                    "pos": {
+                        "x": 165.07,
+                        "y": 99.54
+                    },
+                    "uuid": "ac357916-bb2f-45b4-aed3-ee05c56ea4cd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint R5",
+                    "pos": {
+                        "x": 171.53,
+                        "y": 96.2
+                    },
+                    "uuid": "afe42ce0-66f8-4540-a8ac-b07f5b71c00e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_JST'",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 180.5,
+                        "y": 94.5
+                    },
+                    "uuid": "b1add37c-6fdc-439d-9526-f97686445c8f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 161.01,
+                        "y": 98.94
+                    },
+                    "uuid": "c8f5109d-1d3c-475d-8de7-11d28cbce1ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint Matter1",
+                    "pos": {
+                        "x": 165.21,
+                        "y": 107.29
+                    },
+                    "uuid": "ef84eebb-d53a-4068-8231-dfb30ed133fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint C16",
+                    "pos": {
+                        "x": 170.29,
+                        "y": 93.47
+                    },
+                    "uuid": "f070b05b-7136-487b-9e57-5d7d96d803b4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint C7",
+                    "pos": {
+                        "x": 166.75,
+                        "y": 100.31
+                    },
+                    "uuid": "f61e213d-7eb6-46c7-910f-3f1f0f326033"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R10",
+                    "pos": {
+                        "x": 176.0,
+                        "y": 104.2
+                    },
+                    "uuid": "ff441097-a5aa-4ea3-acdd-07a5c6885a54"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'easyeda2kicad'",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 163.76,
+                        "y": 99.72
+                    },
+                    "uuid": "2e4fe0de-a4c2-4583-9898-c4661f4a0892"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of Boot1 on F.Silkscreen",
+                    "pos": {
+                        "x": 158.6,
+                        "y": 103.21
+                    },
+                    "uuid": "0f607d9c-6f6a-4e37-b653-718ab1574dee"
+                },
+                {
+                    "description": "Reference field of Reset1",
+                    "pos": {
+                        "x": 157.01,
+                        "y": 104.07
+                    },
+                    "uuid": "b3cafac8-a31f-462c-a12e-9b1bb5e606bf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R11",
+                    "pos": {
+                        "x": 176.0,
+                        "y": 99.87
+                    },
+                    "uuid": "1f1698c0-9fdc-4981-a93a-07079fa151cd"
+                },
+                {
+                    "description": "Segment of D5 on F.Silkscreen",
+                    "pos": {
+                        "x": 175.2,
+                        "y": 95.69
+                    },
+                    "uuid": "a55f2f63-9b4b-4cf7-8f36-33db65a9077e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R1 on F.Silkscreen",
+                    "pos": {
+                        "x": 173.98,
+                        "y": 100.53
+                    },
+                    "uuid": "01b03da6-e81d-4a8a-974c-29a3e0c67384"
+                },
+                {
+                    "description": "Segment of D4 on F.Silkscreen",
+                    "pos": {
+                        "x": 173.71,
+                        "y": 100.27
+                    },
+                    "uuid": "c5161097-f0fd-428e-bd47-155e60af8df6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of D4 on F.Silkscreen",
+                    "pos": {
+                        "x": 173.56,
+                        "y": 100.42
+                    },
+                    "uuid": "50c67c7e-dc90-430d-85a4-d2d972024629"
+                },
+                {
+                    "description": "Segment of R1 on F.Silkscreen",
+                    "pos": {
+                        "x": 172.98,
+                        "y": 100.53
+                    },
+                    "uuid": "bdcd591d-386f-4721-8946-e9a97938fb55"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R1 on F.Silkscreen",
+                    "pos": {
+                        "x": 173.98,
+                        "y": 100.53
+                    },
+                    "uuid": "01b03da6-e81d-4a8a-974c-29a3e0c67384"
+                },
+                {
+                    "description": "Segment of D4 on F.Silkscreen",
+                    "pos": {
+                        "x": 173.56,
+                        "y": 100.42
+                    },
+                    "uuid": "50c67c7e-dc90-430d-85a4-d2d972024629"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Arc of C17 on F.Silkscreen",
+                    "pos": {
+                        "x": 172.38,
+                        "y": 95.16
+                    },
+                    "uuid": "4476b5a9-323b-495b-b200-372cd1b11986"
+                },
+                {
+                    "description": "Segment of R5 on F.Silkscreen",
+                    "pos": {
+                        "x": 172.19,
+                        "y": 95.77
+                    },
+                    "uuid": "a360b653-75fa-4134-b85a-081a73869db7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R5 on F.Silkscreen",
+                    "pos": {
+                        "x": 172.19,
+                        "y": 94.81
+                    },
+                    "uuid": "4547c9e3-5a3e-49c8-b3e3-96cab4148338"
+                },
+                {
+                    "description": "Segment of C17 on F.Silkscreen",
+                    "pos": {
+                        "x": 172.23,
+                        "y": 95.16
+                    },
+                    "uuid": "746ba836-753c-40e8-bc25-02dda696086d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C17 on F.Silkscreen",
+                    "pos": {
+                        "x": 172.23,
+                        "y": 95.16
+                    },
+                    "uuid": "746ba836-753c-40e8-bc25-02dda696086d"
+                },
+                {
+                    "description": "Segment of R5 on F.Silkscreen",
+                    "pos": {
+                        "x": 172.19,
+                        "y": 95.77
+                    },
+                    "uuid": "a360b653-75fa-4134-b85a-081a73869db7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of D2 on F.Silkscreen",
+                    "pos": {
+                        "x": 171.02,
+                        "y": 103.26
+                    },
+                    "uuid": "20ee3a68-7de9-4fa2-9ada-ba89539ef71b"
+                },
+                {
+                    "description": "Circle of Q1 on F.Silkscreen",
+                    "pos": {
+                        "x": 170.98,
+                        "y": 103.22
+                    },
+                    "uuid": "61056cf0-810d-410b-a95d-2ad37f82161a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of D2 on F.Silkscreen",
+                    "pos": {
+                        "x": 171.02,
+                        "y": 104.02
+                    },
+                    "uuid": "20631d69-bf46-46a5-9d63-948baa71f8be"
+                },
+                {
+                    "description": "Circle of Q1 on F.Silkscreen",
+                    "pos": {
+                        "x": 170.98,
+                        "y": 103.22
+                    },
+                    "uuid": "61056cf0-810d-410b-a95d-2ad37f82161a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C17 on F.Silkscreen",
+                    "pos": {
+                        "x": 174.03,
+                        "y": 93.75
+                    },
+                    "uuid": "273e0059-0400-45cf-8ead-3d44e8a1930a"
+                },
+                {
+                    "description": "Reference field of F1",
+                    "pos": {
+                        "x": 174.37,
+                        "y": 93.0
+                    },
+                    "uuid": "45bc10e4-fda5-4156-a1a1-14e9b9b2977c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of F1",
+                    "pos": {
+                        "x": 174.37,
+                        "y": 93.0
+                    },
+                    "uuid": "45bc10e4-fda5-4156-a1a1-14e9b9b2977c"
+                },
+                {
+                    "description": "Segment of C17 on F.Silkscreen",
+                    "pos": {
+                        "x": 174.03,
+                        "y": 92.95
+                    },
+                    "uuid": "d9dd9a76-18eb-422e-9a1c-a5f4f4a8e20d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R11",
+                    "pos": {
+                        "x": 176.0,
+                        "y": 99.87
+                    },
+                    "uuid": "1f1698c0-9fdc-4981-a93a-07079fa151cd"
+                },
+                {
+                    "description": "Pad 2 [GND] of D5 on F.Cu",
+                    "pos": {
+                        "x": 176.2,
+                        "y": 99.3
+                    },
+                    "uuid": "61351cde-595f-4bcc-8adf-9fa7591dc890"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of F1",
+                    "pos": {
+                        "x": 174.37,
+                        "y": 93.0
+                    },
+                    "uuid": "45bc10e4-fda5-4156-a1a1-14e9b9b2977c"
+                },
+                {
+                    "description": "Pad 1 [V_in] of C17 on F.Cu",
+                    "pos": {
+                        "x": 173.13,
+                        "y": 94.35
+                    },
+                    "uuid": "43fd6337-e3dc-4061-aee1-12d21b13b2f3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of F1",
+                    "pos": {
+                        "x": 174.37,
+                        "y": 93.0
+                    },
+                    "uuid": "45bc10e4-fda5-4156-a1a1-14e9b9b2977c"
+                },
+                {
+                    "description": "Pad 2 [GND] of C17 on F.Cu",
+                    "pos": {
+                        "x": 173.13,
+                        "y": 92.35
+                    },
+                    "uuid": "ba498464-582d-4dc3-b8ab-85d46793cfa6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1227 mm)",
+            "items": [
+                {
+                    "description": "Reference field of Boot1",
+                    "pos": {
+                        "x": 160.43,
+                        "y": 108.46
+                    },
+                    "uuid": "ddbb53af-1eb8-41d0-8580-3471f9a9d26e"
+                },
+                {
+                    "description": "Pad 1 [Net-(Boot1-A)] of Boot1 on F.Cu",
+                    "pos": {
+                        "x": 160.14,
+                        "y": 107.42
+                    },
+                    "uuid": "fe626f1f-5dcb-4c0d-94b9-9449cb80610b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of Boot1 on F.Silkscreen",
+                    "pos": {
+                        "x": 158.6,
+                        "y": 107.27
+                    },
+                    "uuid": "775c65d3-8fe8-4b0d-9cf1-d76e29c01fbb"
+                },
+                {
+                    "description": "Pad 1 [Net-(Boot1-A)] of Boot1 on F.Cu",
+                    "pos": {
+                        "x": 160.14,
+                        "y": 107.42
+                    },
+                    "uuid": "fe626f1f-5dcb-4c0d-94b9-9449cb80610b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of Boot1 on F.Silkscreen",
+                    "pos": {
+                        "x": 161.68,
+                        "y": 107.27
+                    },
+                    "uuid": "656584d8-18cb-4fc1-8d6d-86eec3754458"
+                },
+                {
+                    "description": "Pad 1 [Net-(Boot1-A)] of Boot1 on F.Cu",
+                    "pos": {
+                        "x": 160.14,
+                        "y": 107.42
+                    },
+                    "uuid": "fe626f1f-5dcb-4c0d-94b9-9449cb80610b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of Matter1 on F.Silkscreen",
+                    "pos": {
+                        "x": 163.18,
+                        "y": 106.18
+                    },
+                    "uuid": "4cb9a60b-c0b6-46f3-a5fa-bc073475d328"
+                },
+                {
+                    "description": "Pad 2 [GND] of Matter1 on F.Cu",
+                    "pos": {
+                        "x": 163.03,
+                        "y": 107.29
+                    },
+                    "uuid": "0d59c622-87f1-4e03-b801-dc9c3e62c4f6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of Matter1 on F.Silkscreen",
+                    "pos": {
+                        "x": 163.18,
+                        "y": 108.83
+                    },
+                    "uuid": "26302a41-989d-46de-9c65-5fd6a7ddcf14"
+                },
+                {
+                    "description": "Pad 2 [GND] of Matter1 on F.Cu",
+                    "pos": {
+                        "x": 163.03,
+                        "y": 107.29
+                    },
+                    "uuid": "0d59c622-87f1-4e03-b801-dc9c3e62c4f6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of Matter1 on F.Silkscreen",
+                    "pos": {
+                        "x": 167.24,
+                        "y": 105.75
+                    },
+                    "uuid": "13b19599-5def-4784-8be3-6be6fa498b80"
+                },
+                {
+                    "description": "Pad 1 [Net-(Matter1-A)] of Matter1 on F.Cu",
+                    "pos": {
+                        "x": 167.39,
+                        "y": 107.29
+                    },
+                    "uuid": "8ede362b-6bc4-483c-a5f8-e12f609dd946"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of Matter1 on F.Silkscreen",
+                    "pos": {
+                        "x": 167.24,
+                        "y": 108.83
+                    },
+                    "uuid": "2e1247cd-c1b2-406d-b64c-c47bf3b49135"
+                },
+                {
+                    "description": "Pad 1 [Net-(Matter1-A)] of Matter1 on F.Cu",
+                    "pos": {
+                        "x": 167.39,
+                        "y": 107.29
+                    },
+                    "uuid": "8ede362b-6bc4-483c-a5f8-e12f609dd946"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0774 mm)",
+            "items": [
+                {
+                    "description": "Reference field of Reset1",
+                    "pos": {
+                        "x": 157.01,
+                        "y": 104.07
+                    },
+                    "uuid": "b3cafac8-a31f-462c-a12e-9b1bb5e606bf"
+                },
+                {
+                    "description": "Pad 2 [GND] of Boot1 on F.Cu",
+                    "pos": {
+                        "x": 160.14,
+                        "y": 103.06
+                    },
+                    "uuid": "4bfb7024-e66c-4338-b29b-6ddc664fecf5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1301 mm)",
+            "items": [
+                {
+                    "description": "Segment of D4 on F.Silkscreen",
+                    "pos": {
+                        "x": 173.56,
+                        "y": 99.42
+                    },
+                    "uuid": "7a241e7f-121d-4b1b-9820-1fbc0ce548f0"
+                },
+                {
+                    "description": "Pad 1 [/S21_TX_CORE] of D4 on F.Cu",
+                    "pos": {
+                        "x": 173.24,
+                        "y": 99.92
+                    },
+                    "uuid": "71d545de-5ecf-4f5d-930c-67746213ed8d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1400 mm)",
+            "items": [
+                {
+                    "description": "Segment of D4 on F.Silkscreen",
+                    "pos": {
+                        "x": 173.71,
+                        "y": 99.57
+                    },
+                    "uuid": "905058e7-a54b-41d2-8740-761bb5d6a704"
+                },
+                {
+                    "description": "Pad 1 [/S21_TX_CORE] of D4 on F.Cu",
+                    "pos": {
+                        "x": 173.24,
+                        "y": 99.92
+                    },
+                    "uuid": "71d545de-5ecf-4f5d-930c-67746213ed8d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1301 mm)",
+            "items": [
+                {
+                    "description": "Segment of D4 on F.Silkscreen",
+                    "pos": {
+                        "x": 173.71,
+                        "y": 100.27
+                    },
+                    "uuid": "c5161097-f0fd-428e-bd47-155e60af8df6"
+                },
+                {
+                    "description": "Pad 1 [/S21_TX_CORE] of D4 on F.Cu",
+                    "pos": {
+                        "x": 173.24,
+                        "y": 99.92
+                    },
+                    "uuid": "71d545de-5ecf-4f5d-930c-67746213ed8d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0950 mm)",
+            "items": [
+                {
+                    "description": "Segment of Q1 on F.Silkscreen",
+                    "pos": {
+                        "x": 169.26,
+                        "y": 100.94
+                    },
+                    "uuid": "421ff10a-93fe-4d5d-a5f6-6b9037b3e457"
+                },
+                {
+                    "description": "Pad 4 [GND] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 169.06,
+                        "y": 101.3
+                    },
+                    "uuid": "ca065ef5-5d0c-4aca-a1b8-f2ad7ff97976"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0950 mm)",
+            "items": [
+                {
+                    "description": "Segment of Q1 on F.Silkscreen",
+                    "pos": {
+                        "x": 170.66,
+                        "y": 100.94
+                    },
+                    "uuid": "03643372-a436-481d-8bf2-0cc9b843df67"
+                },
+                {
+                    "description": "Pad 3 [Net-(Q1B-SP)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 170.86,
+                        "y": 101.3
+                    },
+                    "uuid": "11cecf41-eb33-4760-99d9-2e33eee68a0b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0300 mm)",
+            "items": [
+                {
+                    "description": "Segment of D2 on F.Silkscreen",
+                    "pos": {
+                        "x": 169.76,
+                        "y": 104.02
+                    },
+                    "uuid": "f53cee19-3456-41a6-b68b-758d82e81560"
+                },
+                {
+                    "description": "Pad 2 [Net-(Q1B-SP)] of D2 on F.Cu",
+                    "pos": {
+                        "x": 170.07,
+                        "y": 103.64
+                    },
+                    "uuid": "9e8df2fd-e41c-4e02-984b-32b894bd3b2c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0300 mm)",
+            "items": [
+                {
+                    "description": "Segment of D2 on F.Silkscreen",
+                    "pos": {
+                        "x": 170.52,
+                        "y": 104.02
+                    },
+                    "uuid": "7bc11c4f-1adf-48b5-8544-4b003ccef512"
+                },
+                {
+                    "description": "Pad 1 [GND] of D2 on F.Cu",
+                    "pos": {
+                        "x": 170.71,
+                        "y": 103.64
+                    },
+                    "uuid": "72ce0092-1d18-42b2-a97a-a1407d231eff"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0300 mm)",
+            "items": [
+                {
+                    "description": "Segment of D2 on F.Silkscreen",
+                    "pos": {
+                        "x": 171.02,
+                        "y": 103.26
+                    },
+                    "uuid": "20ee3a68-7de9-4fa2-9ada-ba89539ef71b"
+                },
+                {
+                    "description": "Pad 1 [GND] of D2 on F.Cu",
+                    "pos": {
+                        "x": 170.71,
+                        "y": 103.64
+                    },
+                    "uuid": "72ce0092-1d18-42b2-a97a-a1407d231eff"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of Q1 on F.Silkscreen",
+                    "pos": {
+                        "x": 170.66,
+                        "y": 103.05
+                    },
+                    "uuid": "032d6b50-2efe-40f2-86db-4dd0729ea326"
+                },
+                {
+                    "description": "Pad 1 [GND] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 170.86,
+                        "y": 102.6
+                    },
+                    "uuid": "001affdf-acb5-4d85-b18b-8fb58847d344"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1019 mm)",
+            "items": [
+                {
+                    "description": "Circle of Q1 on F.Silkscreen",
+                    "pos": {
+                        "x": 170.98,
+                        "y": 103.22
+                    },
+                    "uuid": "61056cf0-810d-410b-a95d-2ad37f82161a"
+                },
+                {
+                    "description": "Pad 1 [GND] of D2 on F.Cu",
+                    "pos": {
+                        "x": 170.71,
+                        "y": 103.64
+                    },
+                    "uuid": "72ce0092-1d18-42b2-a97a-a1407d231eff"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0850 mm)",
+            "items": [
+                {
+                    "description": "Segment of D2 on F.Silkscreen",
+                    "pos": {
+                        "x": 169.76,
+                        "y": 103.26
+                    },
+                    "uuid": "0bc6b151-0809-4917-9eb8-ec4a6314d6a8"
+                },
+                {
+                    "description": "Pad 2 [Net-(Q1B-SP)] of D2 on F.Cu",
+                    "pos": {
+                        "x": 170.07,
+                        "y": 103.64
+                    },
+                    "uuid": "9e8df2fd-e41c-4e02-984b-32b894bd3b2c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0300 mm)",
+            "items": [
+                {
+                    "description": "Segment of D2 on F.Silkscreen",
+                    "pos": {
+                        "x": 170.26,
+                        "y": 103.26
+                    },
+                    "uuid": "729fd4e7-f8dd-42e3-874e-9f3c078b9bbf"
+                },
+                {
+                    "description": "Pad 2 [Net-(Q1B-SP)] of D2 on F.Cu",
+                    "pos": {
+                        "x": 170.07,
+                        "y": 103.64
+                    },
+                    "uuid": "9e8df2fd-e41c-4e02-984b-32b894bd3b2c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of Q1 on F.Silkscreen",
+                    "pos": {
+                        "x": 169.26,
+                        "y": 103.05
+                    },
+                    "uuid": "c6bdc6e6-ebae-4ccf-b7ea-83a965c3bd2e"
+                },
+                {
+                    "description": "Pad 6 [RX1] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 169.06,
+                        "y": 102.6
+                    },
+                    "uuid": "fe699114-623a-43e4-958d-96e31737044b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0850 mm)",
+            "items": [
+                {
+                    "description": "Segment of D2 on F.Silkscreen",
+                    "pos": {
+                        "x": 171.02,
+                        "y": 104.02
+                    },
+                    "uuid": "20631d69-bf46-46a5-9d63-948baa71f8be"
+                },
+                {
+                    "description": "Pad 1 [GND] of D2 on F.Cu",
+                    "pos": {
+                        "x": 170.71,
+                        "y": 103.64
+                    },
+                    "uuid": "72ce0092-1d18-42b2-a97a-a1407d231eff"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0850 mm)",
+            "items": [
+                {
+                    "description": "Segment of D3 on F.Silkscreen",
+                    "pos": {
+                        "x": 172.08,
+                        "y": 103.79
+                    },
+                    "uuid": "e17528b9-0e8d-4d66-8a06-5db2fd67f824"
+                },
+                {
+                    "description": "Pad 1 [GND] of D3 on F.Cu",
+                    "pos": {
+                        "x": 172.39,
+                        "y": 104.17
+                    },
+                    "uuid": "4137ee77-f185-4e4d-bb63-c5c087a316db"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0300 mm)",
+            "items": [
+                {
+                    "description": "Segment of D3 on F.Silkscreen",
+                    "pos": {
+                        "x": 172.08,
+                        "y": 104.55
+                    },
+                    "uuid": "e1d85b32-d195-424b-a39f-680bddf35810"
+                },
+                {
+                    "description": "Pad 1 [GND] of D3 on F.Cu",
+                    "pos": {
+                        "x": 172.39,
+                        "y": 104.17
+                    },
+                    "uuid": "4137ee77-f185-4e4d-bb63-c5c087a316db"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0300 mm)",
+            "items": [
+                {
+                    "description": "Segment of D3 on F.Silkscreen",
+                    "pos": {
+                        "x": 172.58,
+                        "y": 103.79
+                    },
+                    "uuid": "dce21adc-7447-4a3c-929d-aa9cea192f99"
+                },
+                {
+                    "description": "Pad 1 [GND] of D3 on F.Cu",
+                    "pos": {
+                        "x": 172.39,
+                        "y": 104.17
+                    },
+                    "uuid": "4137ee77-f185-4e4d-bb63-c5c087a316db"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0300 mm)",
+            "items": [
+                {
+                    "description": "Segment of D3 on F.Silkscreen",
+                    "pos": {
+                        "x": 172.84,
+                        "y": 104.55
+                    },
+                    "uuid": "c235356b-8b1e-4d70-9c87-c1077f308e79"
+                },
+                {
+                    "description": "Pad 2 [/S21_TX_CORE] of D3 on F.Cu",
+                    "pos": {
+                        "x": 173.03,
+                        "y": 104.17
+                    },
+                    "uuid": "5251672e-0a6d-417d-83e9-680845a70936"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0300 mm)",
+            "items": [
+                {
+                    "description": "Segment of D3 on F.Silkscreen",
+                    "pos": {
+                        "x": 173.34,
+                        "y": 103.79
+                    },
+                    "uuid": "a01ccd79-0ed3-4587-b1f4-67bf7c0e9522"
+                },
+                {
+                    "description": "Pad 2 [/S21_TX_CORE] of D3 on F.Cu",
+                    "pos": {
+                        "x": 173.03,
+                        "y": 104.17
+                    },
+                    "uuid": "5251672e-0a6d-417d-83e9-680845a70936"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0850 mm)",
+            "items": [
+                {
+                    "description": "Segment of D3 on F.Silkscreen",
+                    "pos": {
+                        "x": 173.34,
+                        "y": 104.55
+                    },
+                    "uuid": "780e75b8-0150-4392-a149-49299d082cee"
+                },
+                {
+                    "description": "Pad 2 [/S21_TX_CORE] of D3 on F.Cu",
+                    "pos": {
+                        "x": 173.03,
+                        "y": 104.17
+                    },
+                    "uuid": "5251672e-0a6d-417d-83e9-680845a70936"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of Reset1 on F.Silkscreen",
+                    "pos": {
+                        "x": 155.06,
+                        "y": 98.51
+                    },
+                    "uuid": "c3e48691-a9e8-474f-80ab-79d516c0d583"
+                },
+                {
+                    "description": "Pad 1 [Net-(Reset1-A)] of Reset1 on F.Cu",
+                    "pos": {
+                        "x": 156.6,
+                        "y": 98.36
+                    },
+                    "uuid": "720456a2-b638-40be-b825-bea0c882b8ce"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of Reset1 on F.Silkscreen",
+                    "pos": {
+                        "x": 155.49,
+                        "y": 102.57
+                    },
+                    "uuid": "5159f837-e557-4dba-8c38-f33ddc1cabaa"
+                },
+                {
+                    "description": "Pad 2 [GND] of Reset1 on F.Cu",
+                    "pos": {
+                        "x": 156.6,
+                        "y": 102.72
+                    },
+                    "uuid": "5eee1190-2e09-4b92-8754-da71567554a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of Reset1 on F.Silkscreen",
+                    "pos": {
+                        "x": 158.14,
+                        "y": 98.51
+                    },
+                    "uuid": "931cbf1a-cb53-4cc7-877f-e3ad69fa7b56"
+                },
+                {
+                    "description": "Pad 1 [Net-(Reset1-A)] of Reset1 on F.Cu",
+                    "pos": {
+                        "x": 156.6,
+                        "y": 98.36
+                    },
+                    "uuid": "720456a2-b638-40be-b825-bea0c882b8ce"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of Reset1 on F.Silkscreen",
+                    "pos": {
+                        "x": 158.14,
+                        "y": 102.57
+                    },
+                    "uuid": "785a230f-e604-4510-bb2e-0094bca24cfa"
+                },
+                {
+                    "description": "Pad 2 [GND] of Reset1 on F.Cu",
+                    "pos": {
+                        "x": 156.6,
+                        "y": 102.72
+                    },
+                    "uuid": "5eee1190-2e09-4b92-8754-da71567554a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of Boot1 on F.Silkscreen",
+                    "pos": {
+                        "x": 158.6,
+                        "y": 103.21
+                    },
+                    "uuid": "2306f045-6ad1-43b5-a2d1-a8645c047efa"
+                },
+                {
+                    "description": "Pad 2 [GND] of Boot1 on F.Cu",
+                    "pos": {
+                        "x": 160.14,
+                        "y": 103.06
+                    },
+                    "uuid": "4bfb7024-e66c-4338-b29b-6ddc664fecf5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of Boot1 on F.Silkscreen",
+                    "pos": {
+                        "x": 161.25,
+                        "y": 103.21
+                    },
+                    "uuid": "f54c1be9-00da-4f31-a804-4435d942aea5"
+                },
+                {
+                    "description": "Pad 2 [GND] of Boot1 on F.Cu",
+                    "pos": {
+                        "x": 160.14,
+                        "y": 103.06
+                    },
+                    "uuid": "4bfb7024-e66c-4338-b29b-6ddc664fecf5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1350 mm)",
+            "items": [
+                {
+                    "description": "Segment of C6 on F.Silkscreen",
+                    "pos": {
+                        "x": 158.78,
+                        "y": 92.07
+                    },
+                    "uuid": "ec689fec-1153-4055-9907-6f4d1e88ad9e"
+                },
+                {
+                    "description": "Pad 1 [Net-(U2-EN)] of C6 on F.Cu",
+                    "pos": {
+                        "x": 159.49,
+                        "y": 92.49
+                    },
+                    "uuid": "39505c1d-f4fc-4b01-befd-33e8afbef510"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1350 mm)",
+            "items": [
+                {
+                    "description": "Segment of C6 on F.Silkscreen",
+                    "pos": {
+                        "x": 160.2,
+                        "y": 92.07
+                    },
+                    "uuid": "a53e356c-5766-43df-abc4-20f18053dd96"
+                },
+                {
+                    "description": "Pad 1 [Net-(U2-EN)] of C6 on F.Cu",
+                    "pos": {
+                        "x": 159.49,
+                        "y": 92.49
+                    },
+                    "uuid": "39505c1d-f4fc-4b01-befd-33e8afbef510"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1311 mm)",
+            "items": [
+                {
+                    "description": "Arc of C6 on F.Silkscreen",
+                    "pos": {
+                        "x": 159.09,
+                        "y": 92.87
+                    },
+                    "uuid": "a02d07b2-f479-4342-9652-e6b2e5384b1a"
+                },
+                {
+                    "description": "Pad 1 [Net-(U2-EN)] of C6 on F.Cu",
+                    "pos": {
+                        "x": 159.49,
+                        "y": 92.49
+                    },
+                    "uuid": "39505c1d-f4fc-4b01-befd-33e8afbef510"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1311 mm)",
+            "items": [
+                {
+                    "description": "Arc of C6 on F.Silkscreen",
+                    "pos": {
+                        "x": 159.89,
+                        "y": 92.87
+                    },
+                    "uuid": "5a882716-536b-45fd-b49b-2ef8212c6416"
+                },
+                {
+                    "description": "Pad 1 [Net-(U2-EN)] of C6 on F.Cu",
+                    "pos": {
+                        "x": 159.49,
+                        "y": 92.49
+                    },
+                    "uuid": "39505c1d-f4fc-4b01-befd-33e8afbef510"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1350 mm)",
+            "items": [
+                {
+                    "description": "Segment of C6 on F.Silkscreen",
+                    "pos": {
+                        "x": 158.78,
+                        "y": 91.51
+                    },
+                    "uuid": "668b549b-982f-4cde-a527-3a99a77db76f"
+                },
+                {
+                    "description": "Pad 2 [GND] of C6 on F.Cu",
+                    "pos": {
+                        "x": 159.49,
+                        "y": 91.09
+                    },
+                    "uuid": "a8d65a60-1034-4a3e-94fb-ab8b623dee2c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1350 mm)",
+            "items": [
+                {
+                    "description": "Segment of C6 on F.Silkscreen",
+                    "pos": {
+                        "x": 160.2,
+                        "y": 91.51
+                    },
+                    "uuid": "8cd12e3c-06b8-4ddb-b8d3-8d5999f5ed08"
+                },
+                {
+                    "description": "Pad 2 [GND] of C6 on F.Cu",
+                    "pos": {
+                        "x": 159.49,
+                        "y": 91.09
+                    },
+                    "uuid": "a8d65a60-1034-4a3e-94fb-ab8b623dee2c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1311 mm)",
+            "items": [
+                {
+                    "description": "Arc of C6 on F.Silkscreen",
+                    "pos": {
+                        "x": 159.09,
+                        "y": 90.71
+                    },
+                    "uuid": "aa6b582c-37d4-4e3a-98ce-4bb97de1fe03"
+                },
+                {
+                    "description": "Pad 2 [GND] of C6 on F.Cu",
+                    "pos": {
+                        "x": 159.49,
+                        "y": 91.09
+                    },
+                    "uuid": "a8d65a60-1034-4a3e-94fb-ab8b623dee2c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1311 mm)",
+            "items": [
+                {
+                    "description": "Arc of C6 on F.Silkscreen",
+                    "pos": {
+                        "x": 159.89,
+                        "y": 90.71
+                    },
+                    "uuid": "9a79e609-cf82-493b-b49d-dbc91ca982a0"
+                },
+                {
+                    "description": "Pad 2 [GND] of C6 on F.Cu",
+                    "pos": {
+                        "x": 159.49,
+                        "y": 91.09
+                    },
+                    "uuid": "a8d65a60-1034-4a3e-94fb-ab8b623dee2c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of L1 on F.Silkscreen",
+                    "pos": {
+                        "x": 160.92,
+                        "y": 97.01
+                    },
+                    "uuid": "e8acc9c9-dc3a-4d7b-af74-6a08c1c2f87c"
+                },
+                {
+                    "description": "Pad 2 [3V3] of L1 on F.Cu",
+                    "pos": {
+                        "x": 163.15,
+                        "y": 96.36
+                    },
+                    "uuid": "21c93796-75fb-40a0-9e68-021e4ee98788"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of L1 on F.Silkscreen",
+                    "pos": {
+                        "x": 160.7,
+                        "y": 92.11
+                    },
+                    "uuid": "f3a45bb3-6063-4e43-bc11-99f51414b78c"
+                },
+                {
+                    "description": "Pad 1 [Net-(U1-SW)] of L1 on F.Cu",
+                    "pos": {
+                        "x": 163.15,
+                        "y": 92.76
+                    },
+                    "uuid": "d1fc5e1e-3d81-410d-96d8-8da5396853ce"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of L1 on F.Silkscreen",
+                    "pos": {
+                        "x": 165.38,
+                        "y": 92.11
+                    },
+                    "uuid": "29065196-51c0-4c9d-ac58-fdf922b917a3"
+                },
+                {
+                    "description": "Pad 1 [Net-(U1-SW)] of L1 on F.Cu",
+                    "pos": {
+                        "x": 163.15,
+                        "y": 92.76
+                    },
+                    "uuid": "d1fc5e1e-3d81-410d-96d8-8da5396853ce"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of L1 on F.Silkscreen",
+                    "pos": {
+                        "x": 165.6,
+                        "y": 97.01
+                    },
+                    "uuid": "64959a23-86ad-4968-9d8a-9b4209e2b007"
+                },
+                {
+                    "description": "Pad 2 [3V3] of L1 on F.Cu",
+                    "pos": {
+                        "x": 163.15,
+                        "y": 96.36
+                    },
+                    "uuid": "21c93796-75fb-40a0-9e68-021e4ee98788"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 171.04,
+                        "y": 107.72
+                    },
+                    "uuid": "4cb6d369-761c-492b-aea1-7075d027e933"
+                },
+                {
+                    "description": "Pad 9 [GND] of U2 on B.Cu",
+                    "pos": {
+                        "x": 170.11,
+                        "y": 107.27
+                    },
+                    "uuid": "3911aff9-8cb4-4752-a1fe-902d8f911311"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 147.61,
+                        "y": 107.72
+                    },
+                    "uuid": "0620db3c-0c35-4f33-b958-167eda2ae51b"
+                },
+                {
+                    "description": "Pad 16 [TX0] of U2 on B.Cu",
+                    "pos": {
+                        "x": 156.11,
+                        "y": 107.27
+                    },
+                    "uuid": "0ef05a6a-6b04-4466-8347-1e60d6510126"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 155.18,
+                        "y": 91.72
+                    },
+                    "uuid": "d5e14efc-0b57-4825-89d7-09acb5c2a7d5"
+                },
+                {
+                    "description": "Pad 1 [unconnected-(U2-GPIO0-Pad1)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 156.11,
+                        "y": 92.17
+                    },
+                    "uuid": "680c24a5-a398-48b5-9428-c2c7f08e3007"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 157.18,
+                        "y": 91.72
+                    },
+                    "uuid": "1d0e3f13-8dcd-47a9-99cc-afd004c2e2cb"
+                },
+                {
+                    "description": "Pad 2 [unconnected-(U2-GPIO1-Pad2)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 158.11,
+                        "y": 92.17
+                    },
+                    "uuid": "380459f6-517b-42bf-a62f-7fb1626e8f9c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 157.18,
+                        "y": 91.72
+                    },
+                    "uuid": "1d0e3f13-8dcd-47a9-99cc-afd004c2e2cb"
+                },
+                {
+                    "description": "Pad 1 [unconnected-(U2-GPIO0-Pad1)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 156.11,
+                        "y": 92.17
+                    },
+                    "uuid": "680c24a5-a398-48b5-9428-c2c7f08e3007"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 159.18,
+                        "y": 91.72
+                    },
+                    "uuid": "6db5982a-8e80-4edd-9552-70b6d130f3df"
+                },
+                {
+                    "description": "Pad 2 [unconnected-(U2-GPIO1-Pad2)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 158.11,
+                        "y": 92.17
+                    },
+                    "uuid": "380459f6-517b-42bf-a62f-7fb1626e8f9c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 159.18,
+                        "y": 91.72
+                    },
+                    "uuid": "6db5982a-8e80-4edd-9552-70b6d130f3df"
+                },
+                {
+                    "description": "Pad 3 [Net-(U2-EN)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 160.11,
+                        "y": 92.17
+                    },
+                    "uuid": "e643c8ea-3911-4f54-aca1-61cd41423968"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 161.18,
+                        "y": 91.72
+                    },
+                    "uuid": "653d8397-89e0-4e9a-817c-4dcc7b0ca823"
+                },
+                {
+                    "description": "Pad 3 [Net-(U2-EN)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 160.11,
+                        "y": 92.17
+                    },
+                    "uuid": "e643c8ea-3911-4f54-aca1-61cd41423968"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 161.18,
+                        "y": 91.72
+                    },
+                    "uuid": "653d8397-89e0-4e9a-817c-4dcc7b0ca823"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(U2-GPIO2-Pad4)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 162.11,
+                        "y": 92.17
+                    },
+                    "uuid": "2996e6a7-1fab-4f37-8d96-40b716efea4e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 163.18,
+                        "y": 91.72
+                    },
+                    "uuid": "ea1b6006-de66-451e-92a6-2b008e0f189e"
+                },
+                {
+                    "description": "Pad 4 [unconnected-(U2-GPIO2-Pad4)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 162.11,
+                        "y": 92.17
+                    },
+                    "uuid": "2996e6a7-1fab-4f37-8d96-40b716efea4e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 163.18,
+                        "y": 91.72
+                    },
+                    "uuid": "ea1b6006-de66-451e-92a6-2b008e0f189e"
+                },
+                {
+                    "description": "Pad 5 [unconnected-(U2-GPIO4-Pad5)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 164.11,
+                        "y": 92.17
+                    },
+                    "uuid": "ceb199d1-4676-4638-8388-f9434ac403db"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 157.04,
+                        "y": 107.72
+                    },
+                    "uuid": "9bb4e1b6-95f7-4d91-a8c4-f9fb545661fb"
+                },
+                {
+                    "description": "Pad 15 [RX0] of U2 on B.Cu",
+                    "pos": {
+                        "x": 158.11,
+                        "y": 107.27
+                    },
+                    "uuid": "19eac26f-0e72-40ba-bef5-b29c8c6daa55"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 157.04,
+                        "y": 107.72
+                    },
+                    "uuid": "9bb4e1b6-95f7-4d91-a8c4-f9fb545661fb"
+                },
+                {
+                    "description": "Pad 16 [TX0] of U2 on B.Cu",
+                    "pos": {
+                        "x": 156.11,
+                        "y": 107.27
+                    },
+                    "uuid": "0ef05a6a-6b04-4466-8347-1e60d6510126"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 159.04,
+                        "y": 107.72
+                    },
+                    "uuid": "5506457c-a3dc-4033-a00c-203d5ada88ee"
+                },
+                {
+                    "description": "Pad 14 [unconnected-(U2-GPIO3-Pad14)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 160.11,
+                        "y": 107.27
+                    },
+                    "uuid": "f52c8ff4-02b5-43dc-bd7e-1581bc1d13a2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 159.04,
+                        "y": 107.72
+                    },
+                    "uuid": "5506457c-a3dc-4033-a00c-203d5ada88ee"
+                },
+                {
+                    "description": "Pad 15 [RX0] of U2 on B.Cu",
+                    "pos": {
+                        "x": 158.11,
+                        "y": 107.27
+                    },
+                    "uuid": "19eac26f-0e72-40ba-bef5-b29c8c6daa55"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 161.04,
+                        "y": 107.72
+                    },
+                    "uuid": "1aa099e1-bea4-4147-8421-8c9be7430fe6"
+                },
+                {
+                    "description": "Pad 13 [unconnected-(U2-GPIO10-Pad13)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 162.11,
+                        "y": 107.27
+                    },
+                    "uuid": "391e2749-8293-490a-b438-6dd0cad021a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 161.04,
+                        "y": 107.72
+                    },
+                    "uuid": "1aa099e1-bea4-4147-8421-8c9be7430fe6"
+                },
+                {
+                    "description": "Pad 14 [unconnected-(U2-GPIO3-Pad14)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 160.11,
+                        "y": 107.27
+                    },
+                    "uuid": "f52c8ff4-02b5-43dc-bd7e-1581bc1d13a2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 163.04,
+                        "y": 107.72
+                    },
+                    "uuid": "6a300579-f380-474f-9ba0-1bb6e8b07a56"
+                },
+                {
+                    "description": "Pad 13 [unconnected-(U2-GPIO10-Pad13)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 162.11,
+                        "y": 107.27
+                    },
+                    "uuid": "391e2749-8293-490a-b438-6dd0cad021a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 163.04,
+                        "y": 107.72
+                    },
+                    "uuid": "6a300579-f380-474f-9ba0-1bb6e8b07a56"
+                },
+                {
+                    "description": "Pad 12 [Net-(Boot1-A)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 164.11,
+                        "y": 107.27
+                    },
+                    "uuid": "600aada6-0464-410b-ae28-0600eedaef08"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 165.04,
+                        "y": 107.72
+                    },
+                    "uuid": "8a1b2590-5d88-4dd6-a083-b382f48f4d2f"
+                },
+                {
+                    "description": "Pad 12 [Net-(Boot1-A)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 164.11,
+                        "y": 107.27
+                    },
+                    "uuid": "600aada6-0464-410b-ae28-0600eedaef08"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 165.04,
+                        "y": 107.72
+                    },
+                    "uuid": "8a1b2590-5d88-4dd6-a083-b382f48f4d2f"
+                },
+                {
+                    "description": "Pad 11 [unconnected-(U2-GPIO8-Pad11)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 166.11,
+                        "y": 107.27
+                    },
+                    "uuid": "d5a831a7-642c-4ea6-97ae-16bce9dca705"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 167.04,
+                        "y": 107.72
+                    },
+                    "uuid": "6575b5ec-fd00-4f44-9612-0af6a7edf661"
+                },
+                {
+                    "description": "Pad 10 [unconnected-(U2-GPIO7-Pad10)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 168.11,
+                        "y": 107.27
+                    },
+                    "uuid": "e8b68802-7f27-4d7f-b96b-eb8b90f99c44"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 167.04,
+                        "y": 107.72
+                    },
+                    "uuid": "6575b5ec-fd00-4f44-9612-0af6a7edf661"
+                },
+                {
+                    "description": "Pad 11 [unconnected-(U2-GPIO8-Pad11)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 166.11,
+                        "y": 107.27
+                    },
+                    "uuid": "d5a831a7-642c-4ea6-97ae-16bce9dca705"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 169.04,
+                        "y": 107.72
+                    },
+                    "uuid": "cc7001c2-aa46-42fa-8f2b-dc32c4ef7956"
+                },
+                {
+                    "description": "Pad 10 [unconnected-(U2-GPIO7-Pad10)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 168.11,
+                        "y": 107.27
+                    },
+                    "uuid": "e8b68802-7f27-4d7f-b96b-eb8b90f99c44"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 169.04,
+                        "y": 107.72
+                    },
+                    "uuid": "cc7001c2-aa46-42fa-8f2b-dc32c4ef7956"
+                },
+                {
+                    "description": "Pad 9 [GND] of U2 on B.Cu",
+                    "pos": {
+                        "x": 170.11,
+                        "y": 107.27
+                    },
+                    "uuid": "3911aff9-8cb4-4752-a1fe-902d8f911311"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 171.61,
+                        "y": 107.72
+                    },
+                    "uuid": "89155c96-20b9-4d12-8950-03aae70f1eed"
+                },
+                {
+                    "description": "Pad 22 [Net-(Matter1-A)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 171.41,
+                        "y": 104.72
+                    },
+                    "uuid": "61ed458a-55c7-4091-a1b5-2519b6d3d768"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 165.18,
+                        "y": 91.72
+                    },
+                    "uuid": "b9044d75-6562-40cd-9aef-621b37e9a117"
+                },
+                {
+                    "description": "Pad 6 [unconnected-(U2-GPIO5-Pad6)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 166.11,
+                        "y": 92.17
+                    },
+                    "uuid": "60810d2c-c8b2-43be-88fd-b60926e273ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 165.18,
+                        "y": 91.72
+                    },
+                    "uuid": "b9044d75-6562-40cd-9aef-621b37e9a117"
+                },
+                {
+                    "description": "Pad 5 [unconnected-(U2-GPIO4-Pad5)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 164.11,
+                        "y": 92.17
+                    },
+                    "uuid": "ceb199d1-4676-4638-8388-f9434ac403db"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 167.18,
+                        "y": 91.72
+                    },
+                    "uuid": "6a5d21e4-2821-4471-a3c0-ea93c521c8f7"
+                },
+                {
+                    "description": "Pad 7 [unconnected-(U2-GPIO6-Pad7)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 168.11,
+                        "y": 92.17
+                    },
+                    "uuid": "1393c031-dcc5-4fdf-b1cb-cd367447711c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 167.18,
+                        "y": 91.72
+                    },
+                    "uuid": "6a5d21e4-2821-4471-a3c0-ea93c521c8f7"
+                },
+                {
+                    "description": "Pad 6 [unconnected-(U2-GPIO5-Pad6)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 166.11,
+                        "y": 92.17
+                    },
+                    "uuid": "60810d2c-c8b2-43be-88fd-b60926e273ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 169.18,
+                        "y": 91.72
+                    },
+                    "uuid": "9b9efb9d-ce09-4588-a97a-294d8a945859"
+                },
+                {
+                    "description": "Pad 8 [3V3] of U2 on B.Cu",
+                    "pos": {
+                        "x": 170.11,
+                        "y": 92.17
+                    },
+                    "uuid": "75a40c81-a2e2-4124-9989-7e77fd41ed7e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 169.18,
+                        "y": 91.72
+                    },
+                    "uuid": "9b9efb9d-ce09-4588-a97a-294d8a945859"
+                },
+                {
+                    "description": "Pad 7 [unconnected-(U2-GPIO6-Pad7)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 168.11,
+                        "y": 92.17
+                    },
+                    "uuid": "1393c031-dcc5-4fdf-b1cb-cd367447711c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 171.61,
+                        "y": 91.72
+                    },
+                    "uuid": "6c35857e-e1d2-4d87-a1d1-63ff10b7d84f"
+                },
+                {
+                    "description": "Pad 8 [3V3] of U2 on B.Cu",
+                    "pos": {
+                        "x": 170.11,
+                        "y": 92.17
+                    },
+                    "uuid": "75a40c81-a2e2-4124-9989-7e77fd41ed7e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 171.61,
+                        "y": 93.79
+                    },
+                    "uuid": "ab1404c5-6b5e-4e76-84d8-12fd1937c9fb"
+                },
+                {
+                    "description": "Pad 17 [unconnected-(U2-GPIO18-Pad17)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 171.41,
+                        "y": 94.72
+                    },
+                    "uuid": "a685c615-f02c-4053-b346-691e10287665"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 171.61,
+                        "y": 95.79
+                    },
+                    "uuid": "1d7216d2-53ef-4ece-8dfe-998d610e6fdc"
+                },
+                {
+                    "description": "Pad 17 [unconnected-(U2-GPIO18-Pad17)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 171.41,
+                        "y": 94.72
+                    },
+                    "uuid": "a685c615-f02c-4053-b346-691e10287665"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 171.61,
+                        "y": 95.79
+                    },
+                    "uuid": "1d7216d2-53ef-4ece-8dfe-998d610e6fdc"
+                },
+                {
+                    "description": "Pad 18 [unconnected-(U2-GPIO19-Pad18)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 171.41,
+                        "y": 96.72
+                    },
+                    "uuid": "d30d1031-5474-4fd5-ac31-41a338095b4f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 171.61,
+                        "y": 97.79
+                    },
+                    "uuid": "164d4b5c-3f38-4315-9f98-abcd7cfb74a7"
+                },
+                {
+                    "description": "Pad 19 [RX1] of U2 on B.Cu",
+                    "pos": {
+                        "x": 171.41,
+                        "y": 98.72
+                    },
+                    "uuid": "6f842287-4cef-442f-ac78-cab6093a8a65"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 171.61,
+                        "y": 97.79
+                    },
+                    "uuid": "164d4b5c-3f38-4315-9f98-abcd7cfb74a7"
+                },
+                {
+                    "description": "Pad 18 [unconnected-(U2-GPIO19-Pad18)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 171.41,
+                        "y": 96.72
+                    },
+                    "uuid": "d30d1031-5474-4fd5-ac31-41a338095b4f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 171.61,
+                        "y": 99.79
+                    },
+                    "uuid": "ac2eb706-d55c-45bc-9b20-5ea42c2b475c"
+                },
+                {
+                    "description": "Pad 20 [TX1] of U2 on B.Cu",
+                    "pos": {
+                        "x": 171.41,
+                        "y": 100.72
+                    },
+                    "uuid": "0e183919-3ec9-40f3-aaa8-dea297781b2e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 171.61,
+                        "y": 99.79
+                    },
+                    "uuid": "ac2eb706-d55c-45bc-9b20-5ea42c2b475c"
+                },
+                {
+                    "description": "Pad 19 [RX1] of U2 on B.Cu",
+                    "pos": {
+                        "x": 171.41,
+                        "y": 98.72
+                    },
+                    "uuid": "6f842287-4cef-442f-ac78-cab6093a8a65"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 171.61,
+                        "y": 101.79
+                    },
+                    "uuid": "365d2180-3490-4cf7-bdae-d5ac84631810"
+                },
+                {
+                    "description": "Pad 20 [TX1] of U2 on B.Cu",
+                    "pos": {
+                        "x": 171.41,
+                        "y": 100.72
+                    },
+                    "uuid": "0e183919-3ec9-40f3-aaa8-dea297781b2e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 171.61,
+                        "y": 101.79
+                    },
+                    "uuid": "365d2180-3490-4cf7-bdae-d5ac84631810"
+                },
+                {
+                    "description": "Pad 21 [unconnected-(U2-GPIO22-Pad21)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 171.41,
+                        "y": 102.72
+                    },
+                    "uuid": "b974485a-7f17-4692-b587-e17fe43a8395"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 171.61,
+                        "y": 103.79
+                    },
+                    "uuid": "233d1190-2ea8-4348-b9f0-ec582d172ded"
+                },
+                {
+                    "description": "Pad 22 [Net-(Matter1-A)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 171.41,
+                        "y": 104.72
+                    },
+                    "uuid": "61ed458a-55c7-4091-a1b5-2519b6d3d768"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)",
+            "items": [
+                {
+                    "description": "Segment of U2 on B.Silkscreen",
+                    "pos": {
+                        "x": 171.61,
+                        "y": 103.79
+                    },
+                    "uuid": "233d1190-2ea8-4348-b9f0-ec582d172ded"
+                },
+                {
+                    "description": "Pad 21 [unconnected-(U2-GPIO22-Pad21)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 171.41,
+                        "y": 102.72
+                    },
+                    "uuid": "b974485a-7f17-4692-b587-e17fe43a8395"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}
