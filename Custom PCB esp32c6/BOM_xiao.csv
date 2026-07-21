@@ -1,7 +1,7 @@
 "Reference","Value","Footprint","Manufacturer","MPN","LCSC","Distributor (DigiKey/Mouser)","Notes"
 "C3","100nF 50V X7R","0402","Samsung Electro-Mechanics","CL05B104KB54PNC","C307331","DigiKey 1276-CL05B104KB54PNCTR-ND","V_in (12V) bypass; part is 50V (schematic label says 25V, safe over-spec)"
 "C16","100nF 50V X7R","0402","Samsung Electro-Mechanics","CL05B104KB54PNC","C307331","DigiKey 1276-CL05B104KB54PNCTR-ND","V_in (12V) bypass; 50V part"
-"C17","22uF 25V X5R","0805","Murata","GRT21BR61E226ME13L","C398931","DigiKey 490-GRT21BR61E226ME13LCT-ND","Buck V_in cap; replaces obsolete/OOS C45783"
+"C17","22uF 25V X5R","0805","Murata","GRM21BR61E226ME44L","C86816","DigiKey/Mouser: search MPN GRM21BR61E226ME44L","Buck V_in cap; user-selected C86816 at JLC order 2026-07-21 (prior C398931 unavailable in matcher); same 22uF/25V/X5R/0805 class"
 "C18","100nF 16V X7R","0402","Samsung Electro-Mechanics","CL05B104KO5NNNC","C1525","DigiKey 1276-1001-2-ND","U1 bootstrap cap (VBST-SW, ~5V); 16V adequate"
 "C15","47uF 10V X5R","0805","Murata","GRM21BR61A476ME15K","C2292827","DigiKey 490-GRM21BR61A476ME15KCT-ND","Buck 5V output; ~22uF effective at 5V DC bias; replaces 6.3V C16780. DK P/N corrected to match the MPN suffix (K); was miscited as the 15L reel variant, a distinct DK part (490-9961-1-ND), not the same number reformatted"
 "C19","47pF 50V C0G","0402","Samsung Electro-Mechanics","CL05C470JB5NNNC","C84706","DigiKey 1276-1699-1-ND","Buck feedforward across R6; replaces wrong C1549 (18pF)"
